@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Adun PZ 合成百科",
-    "generatedAt": "2026-08-29T15:18:01.608636+00:00",
+    "generatedAt": "2026-08-29T15:21:19.637105+00:00",
     "gameVersion": "42.20.4",
     "steamBuildId": "24909836",
     "profile": "adun_pz",
@@ -12026,1397 +12026,6 @@
     }
   },
   "recipes": [
-    {
-      "id": "Base.build.BarricadePlanks",
-      "scriptId": "BarricadePlanks",
-      "kind": "build",
-      "zh": "木板路障",
-      "en": "Planks Barricade",
-      "translation": "translated",
-      "category": "Barricades",
-      "categoryZh": "Barricades",
-      "sourceId": "vanilla",
-      "source": "Vanilla",
-      "workshopId": "",
-      "inputs": [
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:hammer"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": true,
-          "flags": [
-            "Prop1",
-            "MayDegradeVeryLight",
-            "DontRecordInput"
-          ],
-          "raw": "item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight;DontRecordInput]",
-          "labels": [
-            {
-              "id": "tag:base:hammer",
-              "zh": "槌子",
-              "en": "Tag: base:hammer"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "Base.Plank"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [],
-          "raw": "item 1 [Base.Plank]",
-          "labels": [
-            {
-              "id": "Base.Plank",
-              "zh": "木板",
-              "en": "Plank"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "Base.Nails"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [
-            "DontRecordInput"
-          ],
-          "raw": "item 1 [Base.Nails] flags[DontRecordInput]",
-          "labels": [
-            {
-              "id": "Base.Nails",
-              "zh": "釘子",
-              "en": "Nails"
-            }
-          ]
-        }
-      ],
-      "outputs": [],
-      "skills": [],
-      "xp": [
-        {
-          "id": "Woodwork",
-          "zh": "木工",
-          "en": "Woodwork",
-          "level": 10
-        }
-      ],
-      "time": 200.0,
-      "learned": false,
-      "tags": [
-        "AutoRotate"
-      ],
-      "timedAction": "BuildWallHammer",
-      "buildTarget": {
-        "id": "entity:Base.BarricadePlanks",
-        "zh": "木板路障",
-        "en": "Planks Barricade",
-        "icon": "Build_BarricadeWindow_Plank"
-      },
-      "sourceFile": "media/scripts/generated/entities/barricades/entity_barricade_planks.txt"
-    },
-    {
-      "id": "Base.build.BarricadeMetalSheet",
-      "scriptId": "BarricadeMetalSheet",
-      "kind": "build",
-      "zh": "金屬板路障",
-      "en": "Metal Sheet Barricade",
-      "translation": "translated",
-      "category": "Barricades",
-      "categoryZh": "Barricades",
-      "sourceId": "vanilla",
-      "source": "Vanilla",
-      "workshopId": "",
-      "inputs": [
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "Base.BlowTorch"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [
-            "DontRecordInput"
-          ],
-          "raw": "item 1 [Base.BlowTorch] flags[DontRecordInput]",
-          "labels": [
-            {
-              "id": "Base.BlowTorch",
-              "zh": "丙烷噴燈",
-              "en": "Welding Torch"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "Base.SheetMetal"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [],
-          "raw": "item 1 [Base.SheetMetal]",
-          "labels": [
-            {
-              "id": "Base.SheetMetal",
-              "zh": "鋼板",
-              "en": "Steel Sheet"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "Base.WeldingRods"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [
-            "DontRecordInput"
-          ],
-          "raw": "item 1 [Base.WeldingRods] flags[DontRecordInput]",
-          "labels": [
-            {
-              "id": "Base.WeldingRods",
-              "zh": "焊條",
-              "en": "Welding Rods"
-            }
-          ]
-        }
-      ],
-      "outputs": [],
-      "skills": [
-        {
-          "id": "MetalWelding",
-          "zh": "焊接",
-          "en": "Metal Welding",
-          "level": 3
-        }
-      ],
-      "xp": [
-        {
-          "id": "MetalWelding",
-          "zh": "焊接",
-          "en": "Metal Welding",
-          "level": 30
-        }
-      ],
-      "time": 200.0,
-      "learned": false,
-      "tags": [
-        "AutoRotate"
-      ],
-      "timedAction": "BuildPoleFence",
-      "buildTarget": {
-        "id": "entity:Base.BarricadeMetalSheet",
-        "zh": "金屬板路障",
-        "en": "Metal Sheet Barricade",
-        "icon": "Build_BarricadeWindow_Sheet"
-      },
-      "sourceFile": "media/scripts/generated/entities/barricades/entity_barricade_metalsheet.txt"
-    },
-    {
-      "id": "Base.build.BarricadeMetalBar",
-      "scriptId": "BarricadeMetalBar",
-      "kind": "build",
-      "zh": "金屬柵欄路障",
-      "en": "Metal Bar Barricade",
-      "translation": "translated",
-      "category": "Barricades",
-      "categoryZh": "Barricades",
-      "sourceId": "vanilla",
-      "source": "Vanilla",
-      "workshopId": "",
-      "inputs": [
-        {
-          "kind": "item",
-          "count": 3,
-          "refs": [
-            "Base.BlowTorch"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [
-            "DontRecordInput"
-          ],
-          "raw": "item 3 [Base.BlowTorch] flags[DontRecordInput]",
-          "labels": [
-            {
-              "id": "Base.BlowTorch",
-              "zh": "丙烷噴燈",
-              "en": "Welding Torch"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 3,
-          "refs": [
-            "Base.IronBar",
-            "Base.MetalBar",
-            "Base.SteelBar"
-          ],
-          "refMultipliers": [
-            1,
-            1,
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [],
-          "raw": "item 3 [Base.IronBar;Base.MetalBar;Base.SteelBar]",
-          "labels": [
-            {
-              "id": "Base.IronBar",
-              "zh": "鐵條",
-              "en": "Iron Bar"
-            },
-            {
-              "id": "Base.MetalBar",
-              "zh": "鋼棒",
-              "en": "Steel Rod"
-            },
-            {
-              "id": "Base.SteelBar",
-              "zh": "鋼條",
-              "en": "Steel Bar"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 3,
-          "refs": [
-            "Base.WeldingRods"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [
-            "DontRecordInput"
-          ],
-          "raw": "item 3 [Base.WeldingRods] flags[DontRecordInput]",
-          "labels": [
-            {
-              "id": "Base.WeldingRods",
-              "zh": "焊條",
-              "en": "Welding Rods"
-            }
-          ]
-        }
-      ],
-      "outputs": [],
-      "skills": [
-        {
-          "id": "MetalWelding",
-          "zh": "焊接",
-          "en": "Metal Welding",
-          "level": 3
-        }
-      ],
-      "xp": [
-        {
-          "id": "MetalWelding",
-          "zh": "焊接",
-          "en": "Metal Welding",
-          "level": 30
-        }
-      ],
-      "time": 200.0,
-      "learned": false,
-      "tags": [
-        "AutoRotate"
-      ],
-      "timedAction": "BuildPoleFence",
-      "buildTarget": {
-        "id": "entity:Base.BarricadeMetalBar",
-        "zh": "金屬柵欄路障",
-        "en": "Metal Bar Barricade",
-        "icon": "Build_BarricadeWindow_Bars"
-      },
-      "sourceFile": "media/scripts/generated/entities/barricades/entity_barricade_metalbar.txt"
-    },
-    {
-      "id": "Base.build.Coffin",
-      "scriptId": "Coffin",
-      "kind": "build",
-      "zh": "木製棺材",
-      "en": "Wooden Coffin",
-      "translation": "translated",
-      "category": "Construction",
-      "categoryZh": "Construction",
-      "sourceId": "vanilla",
-      "source": "Vanilla",
-      "workshopId": "",
-      "inputs": [
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:hammer"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": true,
-          "flags": [
-            "Prop1",
-            "MayDegradeVeryLight"
-          ],
-          "raw": "item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight]",
-          "labels": [
-            {
-              "id": "tag:base:hammer",
-              "zh": "槌子",
-              "en": "Tag: base:hammer"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:saw",
-            "tag:base:crudesaw"
-          ],
-          "refMultipliers": [
-            1,
-            1
-          ],
-          "refType": "tag",
-          "keep": true,
-          "flags": [
-            "MayDegradeLight"
-          ],
-          "raw": "item 1 tags[base:saw;base:crudesaw] mode:keep flags[MayDegradeLight]",
-          "labels": [
-            {
-              "id": "tag:base:saw",
-              "zh": "鋸子",
-              "en": "Tag: base:saw"
-            },
-            {
-              "id": "tag:base:crudesaw",
-              "zh": "粗製鋸",
-              "en": "Tag: base:crudesaw"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 4,
-          "refs": [
-            "Base.Plank"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [],
-          "raw": "item 4 [Base.Plank]",
-          "labels": [
-            {
-              "id": "Base.Plank",
-              "zh": "木板",
-              "en": "Plank"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 4,
-          "refs": [
-            "Base.Nails"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [],
-          "raw": "item 4 [Base.Nails]",
-          "labels": [
-            {
-              "id": "Base.Nails",
-              "zh": "釘子",
-              "en": "Nails"
-            }
-          ]
-        }
-      ],
-      "outputs": [],
-      "skills": [
-        {
-          "id": "Woodwork",
-          "zh": "木工",
-          "en": "Woodwork",
-          "level": 4
-        }
-      ],
-      "xp": [
-        {
-          "id": "Woodwork",
-          "zh": "木工",
-          "en": "Woodwork",
-          "level": 40
-        }
-      ],
-      "time": 50.0,
-      "learned": false,
-      "tags": [
-        "Carpentry"
-      ],
-      "timedAction": "BuildWoodenStructureMedium",
-      "buildTarget": {
-        "id": "entity:Base.Coffin",
-        "zh": "木製棺材",
-        "en": "Wooden Coffin",
-        "icon": "Build_Coffin"
-      },
-      "sourceFile": "media/scripts/generated/entities/furniture/entity_carpentry_coffin.txt"
-    },
-    {
-      "id": "Base.build.WoodLampPillar",
-      "scriptId": "WoodLampPillar",
-      "kind": "build",
-      "zh": "木質手電筒立柱",
-      "en": "Wooden Flashlight Pillar",
-      "translation": "translated",
-      "category": "Construction",
-      "categoryZh": "Construction",
-      "sourceId": "vanilla",
-      "source": "Vanilla",
-      "workshopId": "",
-      "inputs": [
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:hammer"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": true,
-          "flags": [
-            "Prop1",
-            "MayDegradeVeryLight"
-          ],
-          "raw": "item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight]",
-          "labels": [
-            {
-              "id": "tag:base:hammer",
-              "zh": "槌子",
-              "en": "Tag: base:hammer"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "Base.Log"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [],
-          "raw": "item 1 [Base.Log]",
-          "labels": [
-            {
-              "id": "Base.Log",
-              "zh": "原木",
-              "en": "Log"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 4,
-          "refs": [
-            "Base.Nails"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [],
-          "raw": "item 4 [Base.Nails]",
-          "labels": [
-            {
-              "id": "Base.Nails",
-              "zh": "釘子",
-              "en": "Nails"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "Base.Rope"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [],
-          "raw": "item 1 [Base.Rope]",
-          "labels": [
-            {
-              "id": "Base.Rope",
-              "zh": "繩索",
-              "en": "Rope"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:flashlightpillar"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": false,
-          "flags": [],
-          "raw": "item 1 tags[base:flashlightpillar] mode:destroy",
-          "labels": [
-            {
-              "id": "tag:base:flashlightpillar",
-              "zh": "可用物品（例如：手電筒、彎頭手電筒、彎頭手電筒 - 軍用）",
-              "en": "Tag: base:flashlightpillar"
-            }
-          ]
-        }
-      ],
-      "outputs": [],
-      "skills": [
-        {
-          "id": "Woodwork",
-          "zh": "木工",
-          "en": "Woodwork",
-          "level": 1
-        }
-      ],
-      "xp": [
-        {
-          "id": "Woodwork",
-          "zh": "木工",
-          "en": "Woodwork",
-          "level": 10
-        }
-      ],
-      "time": 200.0,
-      "learned": false,
-      "tags": [
-        "Carpentry"
-      ],
-      "timedAction": "BuildWallHammer",
-      "buildTarget": {
-        "id": "entity:Base.WoodLampPillar",
-        "zh": "木質手電筒立柱",
-        "en": "Wooden Flashlight Pillar",
-        "icon": "Build_FlashlightLamp"
-      },
-      "sourceFile": "media/scripts/generated/entities/outdoors/entity_wood_lamppillar.txt"
-    },
-    {
-      "id": "Base.build.Piano",
-      "scriptId": "Piano",
-      "kind": "build",
-      "zh": "鋼琴",
-      "en": "Piano",
-      "translation": "translated",
-      "category": "Debug",
-      "categoryZh": "Debug",
-      "sourceId": "vanilla",
-      "source": "Vanilla",
-      "workshopId": "",
-      "inputs": [
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:hammer"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": true,
-          "flags": [
-            "Prop1",
-            "MayDegradeVeryLight"
-          ],
-          "raw": "item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight]",
-          "labels": [
-            {
-              "id": "tag:base:hammer",
-              "zh": "槌子",
-              "en": "Tag: base:hammer"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 2,
-          "refs": [
-            "Base.Plank"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [],
-          "raw": "item 2 [Base.Plank]",
-          "labels": [
-            {
-              "id": "Base.Plank",
-              "zh": "木板",
-              "en": "Plank"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 4,
-          "refs": [
-            "Base.Nails"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [],
-          "raw": "item 4 [Base.Nails]",
-          "labels": [
-            {
-              "id": "Base.Nails",
-              "zh": "釘子",
-              "en": "Nails"
-            }
-          ]
-        }
-      ],
-      "outputs": [],
-      "skills": [],
-      "xp": [],
-      "time": 10.0,
-      "learned": false,
-      "tags": [],
-      "timedAction": "",
-      "buildTarget": {
-        "id": "entity:Base.Piano",
-        "zh": "鋼琴",
-        "en": "Piano",
-        "icon": ""
-      },
-      "sourceFile": "media/scripts/generated/entities/admin/entity_piano.txt"
-    },
-    {
-      "id": "Base.build.Paint_SignArrowUp",
-      "scriptId": "Paint_SignArrowUp",
-      "kind": "build",
-      "zh": "塗鴉 (上箭頭)",
-      "en": "Paint Sign - Up Arrow",
-      "translation": "translated",
-      "category": "Wall Coverings",
-      "categoryZh": "Wall Coverings",
-      "sourceId": "vanilla",
-      "source": "Vanilla",
-      "workshopId": "",
-      "inputs": [
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:paintbrush"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": true,
-          "flags": [
-            "Prop1",
-            "MayDegradeVeryLight"
-          ],
-          "raw": "item 1 tags[base:paintbrush] mode:keep flags[Prop1;MayDegradeVeryLight]",
-          "labels": [
-            {
-              "id": "tag:base:paintbrush",
-              "zh": "可用物品（例如：油漆刷、手工油漆刷）",
-              "en": "Tag: base:paintbrush"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:paint"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": false,
-          "flags": [],
-          "raw": "item 1 tags[base:paint]",
-          "labels": [
-            {
-              "id": "tag:base:paint",
-              "zh": "可用物品（例如：油漆 (黑)、油漆 (藍)、油漆 (棕)）",
-              "en": "Tag: base:paint"
-            }
-          ]
-        }
-      ],
-      "outputs": [],
-      "skills": [],
-      "xp": [],
-      "time": 200.0,
-      "learned": false,
-      "tags": [],
-      "timedAction": "Paint",
-      "buildTarget": {
-        "id": "entity:Base.Paint_SignArrowUp",
-        "zh": "塗鴉 (上箭頭)",
-        "en": "Paint Sign - Up Arrow",
-        "icon": "Build_WoodSign_Up"
-      },
-      "sourceFile": "media/scripts/generated/entities/walls/paint_sign.txt"
-    },
-    {
-      "id": "Base.build.Paint_SignArrowDown",
-      "scriptId": "Paint_SignArrowDown",
-      "kind": "build",
-      "zh": "塗鴉 (下箭頭)",
-      "en": "Paint Sign - Down Arrow",
-      "translation": "translated",
-      "category": "Wall Coverings",
-      "categoryZh": "Wall Coverings",
-      "sourceId": "vanilla",
-      "source": "Vanilla",
-      "workshopId": "",
-      "inputs": [
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:paintbrush"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": true,
-          "flags": [
-            "Prop1",
-            "MayDegradeVeryLight"
-          ],
-          "raw": "item 1 tags[base:paintbrush] mode:keep flags[Prop1;MayDegradeVeryLight]",
-          "labels": [
-            {
-              "id": "tag:base:paintbrush",
-              "zh": "可用物品（例如：油漆刷、手工油漆刷）",
-              "en": "Tag: base:paintbrush"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:paint"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": false,
-          "flags": [],
-          "raw": "item 1 tags[base:paint]",
-          "labels": [
-            {
-              "id": "tag:base:paint",
-              "zh": "可用物品（例如：油漆 (黑)、油漆 (藍)、油漆 (棕)）",
-              "en": "Tag: base:paint"
-            }
-          ]
-        }
-      ],
-      "outputs": [],
-      "skills": [],
-      "xp": [],
-      "time": 200.0,
-      "learned": false,
-      "tags": [],
-      "timedAction": "Paint",
-      "buildTarget": {
-        "id": "entity:Base.Paint_SignArrowDown",
-        "zh": "塗鴉 (下箭頭)",
-        "en": "Paint Sign - Down Arrow",
-        "icon": "Build_WoodSign_Down"
-      },
-      "sourceFile": "media/scripts/generated/entities/walls/paint_sign.txt"
-    },
-    {
-      "id": "Base.build.Paint_SignArrowRight",
-      "scriptId": "Paint_SignArrowRight",
-      "kind": "build",
-      "zh": "塗鴉 (右箭頭)",
-      "en": "Paint Sign - Right Arrow",
-      "translation": "translated",
-      "category": "Wall Coverings",
-      "categoryZh": "Wall Coverings",
-      "sourceId": "vanilla",
-      "source": "Vanilla",
-      "workshopId": "",
-      "inputs": [
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:paintbrush"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": true,
-          "flags": [
-            "Prop1",
-            "MayDegradeVeryLight"
-          ],
-          "raw": "item 1 tags[base:paintbrush] mode:keep flags[Prop1;MayDegradeVeryLight]",
-          "labels": [
-            {
-              "id": "tag:base:paintbrush",
-              "zh": "可用物品（例如：油漆刷、手工油漆刷）",
-              "en": "Tag: base:paintbrush"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:paint"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": false,
-          "flags": [],
-          "raw": "item 1 tags[base:paint]",
-          "labels": [
-            {
-              "id": "tag:base:paint",
-              "zh": "可用物品（例如：油漆 (黑)、油漆 (藍)、油漆 (棕)）",
-              "en": "Tag: base:paint"
-            }
-          ]
-        }
-      ],
-      "outputs": [],
-      "skills": [],
-      "xp": [],
-      "time": 200.0,
-      "learned": false,
-      "tags": [],
-      "timedAction": "Paint",
-      "buildTarget": {
-        "id": "entity:Base.Paint_SignArrowRight",
-        "zh": "塗鴉 (右箭頭)",
-        "en": "Paint Sign - Right Arrow",
-        "icon": "Build_WoodSign_Right"
-      },
-      "sourceFile": "media/scripts/generated/entities/walls/paint_sign.txt"
-    },
-    {
-      "id": "Base.build.Paint_SignArrowLeft",
-      "scriptId": "Paint_SignArrowLeft",
-      "kind": "build",
-      "zh": "塗鴉 (左箭頭)",
-      "en": "Paint Sign - Left Arrow",
-      "translation": "translated",
-      "category": "Wall Coverings",
-      "categoryZh": "Wall Coverings",
-      "sourceId": "vanilla",
-      "source": "Vanilla",
-      "workshopId": "",
-      "inputs": [
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:paintbrush"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": true,
-          "flags": [
-            "Prop1",
-            "MayDegradeVeryLight"
-          ],
-          "raw": "item 1 tags[base:paintbrush] mode:keep flags[Prop1;MayDegradeVeryLight]",
-          "labels": [
-            {
-              "id": "tag:base:paintbrush",
-              "zh": "可用物品（例如：油漆刷、手工油漆刷）",
-              "en": "Tag: base:paintbrush"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:paint"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": false,
-          "flags": [],
-          "raw": "item 1 tags[base:paint]",
-          "labels": [
-            {
-              "id": "tag:base:paint",
-              "zh": "可用物品（例如：油漆 (黑)、油漆 (藍)、油漆 (棕)）",
-              "en": "Tag: base:paint"
-            }
-          ]
-        }
-      ],
-      "outputs": [],
-      "skills": [],
-      "xp": [],
-      "time": 200.0,
-      "learned": false,
-      "tags": [],
-      "timedAction": "Paint",
-      "buildTarget": {
-        "id": "entity:Base.Paint_SignArrowLeft",
-        "zh": "塗鴉 (左箭頭)",
-        "en": "Paint Sign - Left Arrow",
-        "icon": "Build_WoodSign_Left"
-      },
-      "sourceFile": "media/scripts/generated/entities/walls/paint_sign.txt"
-    },
-    {
-      "id": "Base.build.Paint_SignSkull",
-      "scriptId": "Paint_SignSkull",
-      "kind": "build",
-      "zh": "塗鴉 (骷髏)",
-      "en": "Paint Sign - Skull",
-      "translation": "translated",
-      "category": "Wall Coverings",
-      "categoryZh": "Wall Coverings",
-      "sourceId": "vanilla",
-      "source": "Vanilla",
-      "workshopId": "",
-      "inputs": [
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:paintbrush"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": true,
-          "flags": [
-            "Prop1",
-            "MayDegradeVeryLight"
-          ],
-          "raw": "item 1 tags[base:paintbrush] mode:keep flags[Prop1;MayDegradeVeryLight]",
-          "labels": [
-            {
-              "id": "tag:base:paintbrush",
-              "zh": "可用物品（例如：油漆刷、手工油漆刷）",
-              "en": "Tag: base:paintbrush"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:paint"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": false,
-          "flags": [],
-          "raw": "item 1 tags[base:paint]",
-          "labels": [
-            {
-              "id": "tag:base:paint",
-              "zh": "可用物品（例如：油漆 (黑)、油漆 (藍)、油漆 (棕)）",
-              "en": "Tag: base:paint"
-            }
-          ]
-        }
-      ],
-      "outputs": [],
-      "skills": [],
-      "xp": [],
-      "time": 200.0,
-      "learned": false,
-      "tags": [],
-      "timedAction": "Paint",
-      "buildTarget": {
-        "id": "entity:Base.Paint_SignSkull",
-        "zh": "塗鴉 (骷髏)",
-        "en": "Paint Sign - Skull",
-        "icon": "Build_WoodSign_Skull"
-      },
-      "sourceFile": "media/scripts/generated/entities/walls/paint_sign.txt"
-    },
-    {
-      "id": "Base.build.Paint_Wall",
-      "scriptId": "Paint_Wall",
-      "kind": "build",
-      "zh": "往牆或物品上塗漆",
-      "en": "Paint Wall / Item",
-      "translation": "translated",
-      "category": "Wall Coverings",
-      "categoryZh": "Wall Coverings",
-      "sourceId": "vanilla",
-      "source": "Vanilla",
-      "workshopId": "",
-      "inputs": [
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:paintbrush"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": true,
-          "flags": [
-            "Prop1",
-            "MayDegradeVeryLight"
-          ],
-          "raw": "item 1 tags[base:paintbrush] mode:keep flags[Prop1;MayDegradeVeryLight]",
-          "labels": [
-            {
-              "id": "tag:base:paintbrush",
-              "zh": "可用物品（例如：油漆刷、手工油漆刷）",
-              "en": "Tag: base:paintbrush"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:paint"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": false,
-          "flags": [],
-          "raw": "item 1 tags[base:paint]",
-          "labels": [
-            {
-              "id": "tag:base:paint",
-              "zh": "可用物品（例如：油漆 (黑)、油漆 (藍)、油漆 (棕)）",
-              "en": "Tag: base:paint"
-            }
-          ]
-        }
-      ],
-      "outputs": [],
-      "skills": [],
-      "xp": [],
-      "time": 200.0,
-      "learned": false,
-      "tags": [],
-      "timedAction": "Paint",
-      "buildTarget": {
-        "id": "entity:Base.Paint_Wall",
-        "zh": "往牆或物品上塗漆",
-        "en": "Paint Wall / Item",
-        "icon": "Build_Wall_Paint"
-      },
-      "sourceFile": "media/scripts/generated/entities/walls/paint_wall.txt"
-    },
-    {
-      "id": "Base.build.Plaster_Wall",
-      "scriptId": "Plaster_Wall",
-      "kind": "build",
-      "zh": "為牆面抹上灰泥",
-      "en": "Plaster Wall",
-      "translation": "translated",
-      "category": "Wall Coverings",
-      "categoryZh": "Wall Coverings",
-      "sourceId": "vanilla",
-      "source": "Vanilla",
-      "workshopId": "",
-      "inputs": [
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:plastertrowel"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": true,
-          "flags": [
-            "Prop1",
-            "MayDegradeVeryLight"
-          ],
-          "raw": "item 1 tags[base:plastertrowel] mode:keep flags[Prop1;MayDegradeVeryLight]",
-          "labels": [
-            {
-              "id": "tag:base:plastertrowel",
-              "zh": "可用物品（例如：抹刀、木製石工抹刀）",
-              "en": "Tag: base:plastertrowel"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "Base.BucketPlasterFull",
-            "Base.BucketCarvedPlasterFull"
-          ],
-          "refMultipliers": [
-            1,
-            1
-          ],
-          "refType": "item",
-          "keep": false,
-          "flags": [],
-          "raw": "item 1 [Base.BucketPlasterFull;Base.BucketCarvedPlasterFull]",
-          "labels": [
-            {
-              "id": "Base.BucketPlasterFull",
-              "zh": "水桶 (灰泥)",
-              "en": "Bucket of Plaster"
-            },
-            {
-              "id": "Base.BucketCarvedPlasterFull",
-              "zh": "雕刻木桶 (灰泥)",
-              "en": "Carved Bucket of Plaster"
-            }
-          ]
-        }
-      ],
-      "outputs": [],
-      "skills": [
-        {
-          "id": "Woodwork",
-          "zh": "木工",
-          "en": "Woodwork",
-          "level": 6
-        }
-      ],
-      "xp": [
-        {
-          "id": "Woodwork",
-          "zh": "木工",
-          "en": "Woodwork",
-          "level": 60
-        }
-      ],
-      "time": 200.0,
-      "learned": false,
-      "tags": [],
-      "timedAction": "Paint",
-      "buildTarget": {
-        "id": "entity:Base.Plaster_Wall",
-        "zh": "為牆面抹上灰泥",
-        "en": "Plaster Wall",
-        "icon": "Build_Wall_Plaster"
-      },
-      "sourceFile": "media/scripts/generated/entities/walls/plaster_wall.txt"
-    },
-    {
-      "id": "Base.build.Paper_Wall",
-      "scriptId": "Paper_Wall",
-      "kind": "build",
-      "zh": "貼壁紙",
-      "en": "Apply Wallpaper",
-      "translation": "translated",
-      "category": "Wall Coverings",
-      "categoryZh": "Wall Coverings",
-      "sourceId": "vanilla",
-      "source": "Vanilla",
-      "workshopId": "",
-      "inputs": [
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:paintbrush"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": true,
-          "flags": [
-            "Prop1",
-            "MayDegradeVeryLight"
-          ],
-          "raw": "item 1 tags[base:paintbrush] mode:keep flags[Prop1;MayDegradeVeryLight]",
-          "labels": [
-            {
-              "id": "tag:base:paintbrush",
-              "zh": "可用物品（例如：油漆刷、手工油漆刷）",
-              "en": "Tag: base:paintbrush"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:scissors"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": true,
-          "flags": [
-            "MayDegradeVeryLight"
-          ],
-          "raw": "item 1 tags[base:scissors] mode:keep flags[MayDegradeVeryLight]",
-          "labels": [
-            {
-              "id": "tag:base:scissors",
-              "zh": "剪刀",
-              "en": "Tag: base:scissors"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:wallpaperpaste"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": false,
-          "flags": [],
-          "raw": "item 1 tags[base:wallpaperpaste]",
-          "labels": [
-            {
-              "id": "tag:base:wallpaperpaste",
-              "zh": "可用物品（例如：雕刻木桶 (灰泥)、水桶 (壁紙膠)、雕刻木桶 (壁紙膠)）",
-              "en": "Tag: base:wallpaperpaste"
-            }
-          ]
-        },
-        {
-          "kind": "item",
-          "count": 1,
-          "refs": [
-            "tag:base:wallpaper"
-          ],
-          "refMultipliers": [
-            1
-          ],
-          "refType": "tag",
-          "keep": false,
-          "flags": [],
-          "raw": "item 1 tags[base:wallpaper]",
-          "labels": [
-            {
-              "id": "tag:base:wallpaper",
-              "zh": "可用物品（例如：壁紙 (米色條紋)、壁紙 (黑色花卉)、壁紙 (藍色條紋)）",
-              "en": "Tag: base:wallpaper"
-            }
-          ]
-        }
-      ],
-      "outputs": [],
-      "skills": [],
-      "xp": [],
-      "time": 200.0,
-      "learned": false,
-      "tags": [],
-      "timedAction": "Paint",
-      "buildTarget": {
-        "id": "entity:Base.Paper_Wall",
-        "zh": "貼壁紙",
-        "en": "Apply Wallpaper",
-        "icon": "Build_Wall_Wallpaper"
-      },
-      "sourceFile": "media/scripts/generated/entities/walls/paper_wall.txt"
-    },
     {
       "id": "Base.FixSaw",
       "scriptId": "FixSaw",
@@ -48740,6 +47349,300 @@
       "onCreate": "",
       "timedAction": "HammerMetalStanding",
       "sourceFile": "media/scripts/generated/entities/blacksmith/craftRecipes/recipes_blacksmith_tools.txt"
+    },
+    {
+      "id": "Base.build.Coffin",
+      "scriptId": "Coffin",
+      "kind": "build",
+      "zh": "木製棺材",
+      "en": "Wooden Coffin",
+      "translation": "translated",
+      "category": "Construction",
+      "categoryZh": "建築",
+      "sourceId": "vanilla",
+      "source": "Vanilla",
+      "workshopId": "",
+      "inputs": [
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:hammer"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": true,
+          "flags": [
+            "Prop1",
+            "MayDegradeVeryLight"
+          ],
+          "raw": "item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight]",
+          "labels": [
+            {
+              "id": "tag:base:hammer",
+              "zh": "槌子",
+              "en": "Tag: base:hammer"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:saw",
+            "tag:base:crudesaw"
+          ],
+          "refMultipliers": [
+            1,
+            1
+          ],
+          "refType": "tag",
+          "keep": true,
+          "flags": [
+            "MayDegradeLight"
+          ],
+          "raw": "item 1 tags[base:saw;base:crudesaw] mode:keep flags[MayDegradeLight]",
+          "labels": [
+            {
+              "id": "tag:base:saw",
+              "zh": "鋸子",
+              "en": "Tag: base:saw"
+            },
+            {
+              "id": "tag:base:crudesaw",
+              "zh": "粗製鋸",
+              "en": "Tag: base:crudesaw"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 4,
+          "refs": [
+            "Base.Plank"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [],
+          "raw": "item 4 [Base.Plank]",
+          "labels": [
+            {
+              "id": "Base.Plank",
+              "zh": "木板",
+              "en": "Plank"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 4,
+          "refs": [
+            "Base.Nails"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [],
+          "raw": "item 4 [Base.Nails]",
+          "labels": [
+            {
+              "id": "Base.Nails",
+              "zh": "釘子",
+              "en": "Nails"
+            }
+          ]
+        }
+      ],
+      "outputs": [],
+      "skills": [
+        {
+          "id": "Woodwork",
+          "zh": "木工",
+          "en": "Woodwork",
+          "level": 4
+        }
+      ],
+      "xp": [
+        {
+          "id": "Woodwork",
+          "zh": "木工",
+          "en": "Woodwork",
+          "level": 40
+        }
+      ],
+      "time": 50.0,
+      "learned": false,
+      "tags": [
+        "Carpentry"
+      ],
+      "timedAction": "BuildWoodenStructureMedium",
+      "buildTarget": {
+        "id": "entity:Base.Coffin",
+        "zh": "木製棺材",
+        "en": "Wooden Coffin",
+        "icon": "Build_Coffin"
+      },
+      "sourceFile": "media/scripts/generated/entities/furniture/entity_carpentry_coffin.txt"
+    },
+    {
+      "id": "Base.build.WoodLampPillar",
+      "scriptId": "WoodLampPillar",
+      "kind": "build",
+      "zh": "木質手電筒立柱",
+      "en": "Wooden Flashlight Pillar",
+      "translation": "translated",
+      "category": "Construction",
+      "categoryZh": "建築",
+      "sourceId": "vanilla",
+      "source": "Vanilla",
+      "workshopId": "",
+      "inputs": [
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:hammer"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": true,
+          "flags": [
+            "Prop1",
+            "MayDegradeVeryLight"
+          ],
+          "raw": "item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight]",
+          "labels": [
+            {
+              "id": "tag:base:hammer",
+              "zh": "槌子",
+              "en": "Tag: base:hammer"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "Base.Log"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [],
+          "raw": "item 1 [Base.Log]",
+          "labels": [
+            {
+              "id": "Base.Log",
+              "zh": "原木",
+              "en": "Log"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 4,
+          "refs": [
+            "Base.Nails"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [],
+          "raw": "item 4 [Base.Nails]",
+          "labels": [
+            {
+              "id": "Base.Nails",
+              "zh": "釘子",
+              "en": "Nails"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "Base.Rope"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [],
+          "raw": "item 1 [Base.Rope]",
+          "labels": [
+            {
+              "id": "Base.Rope",
+              "zh": "繩索",
+              "en": "Rope"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:flashlightpillar"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": false,
+          "flags": [],
+          "raw": "item 1 tags[base:flashlightpillar] mode:destroy",
+          "labels": [
+            {
+              "id": "tag:base:flashlightpillar",
+              "zh": "可用物品（例如：手電筒、彎頭手電筒、彎頭手電筒 - 軍用）",
+              "en": "Tag: base:flashlightpillar"
+            }
+          ]
+        }
+      ],
+      "outputs": [],
+      "skills": [
+        {
+          "id": "Woodwork",
+          "zh": "木工",
+          "en": "Woodwork",
+          "level": 1
+        }
+      ],
+      "xp": [
+        {
+          "id": "Woodwork",
+          "zh": "木工",
+          "en": "Woodwork",
+          "level": 10
+        }
+      ],
+      "time": 200.0,
+      "learned": false,
+      "tags": [
+        "Carpentry"
+      ],
+      "timedAction": "BuildWallHammer",
+      "buildTarget": {
+        "id": "entity:Base.WoodLampPillar",
+        "zh": "木質手電筒立柱",
+        "en": "Wooden Flashlight Pillar",
+        "icon": "Build_FlashlightLamp"
+      },
+      "sourceFile": "media/scripts/generated/entities/outdoors/entity_wood_lamppillar.txt"
     },
     {
       "id": "Base.build.BarbedWireFence",
@@ -90007,6 +88910,663 @@
       "sourceFile": "media/scripts/generated/entities/walls/entity_metal_wirefencegate.txt"
     },
     {
+      "id": "Base.build.Paint_SignArrowUp",
+      "scriptId": "Paint_SignArrowUp",
+      "kind": "build",
+      "zh": "塗鴉 (上箭頭)",
+      "en": "Paint Sign - Up Arrow",
+      "translation": "translated",
+      "category": "Wall Coverings",
+      "categoryZh": "牆面處理",
+      "sourceId": "vanilla",
+      "source": "Vanilla",
+      "workshopId": "",
+      "inputs": [
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:paintbrush"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": true,
+          "flags": [
+            "Prop1",
+            "MayDegradeVeryLight"
+          ],
+          "raw": "item 1 tags[base:paintbrush] mode:keep flags[Prop1;MayDegradeVeryLight]",
+          "labels": [
+            {
+              "id": "tag:base:paintbrush",
+              "zh": "可用物品（例如：油漆刷、手工油漆刷）",
+              "en": "Tag: base:paintbrush"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:paint"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": false,
+          "flags": [],
+          "raw": "item 1 tags[base:paint]",
+          "labels": [
+            {
+              "id": "tag:base:paint",
+              "zh": "可用物品（例如：油漆 (黑)、油漆 (藍)、油漆 (棕)）",
+              "en": "Tag: base:paint"
+            }
+          ]
+        }
+      ],
+      "outputs": [],
+      "skills": [],
+      "xp": [],
+      "time": 200.0,
+      "learned": false,
+      "tags": [],
+      "timedAction": "Paint",
+      "buildTarget": {
+        "id": "entity:Base.Paint_SignArrowUp",
+        "zh": "塗鴉 (上箭頭)",
+        "en": "Paint Sign - Up Arrow",
+        "icon": "Build_WoodSign_Up"
+      },
+      "sourceFile": "media/scripts/generated/entities/walls/paint_sign.txt"
+    },
+    {
+      "id": "Base.build.Paint_SignArrowDown",
+      "scriptId": "Paint_SignArrowDown",
+      "kind": "build",
+      "zh": "塗鴉 (下箭頭)",
+      "en": "Paint Sign - Down Arrow",
+      "translation": "translated",
+      "category": "Wall Coverings",
+      "categoryZh": "牆面處理",
+      "sourceId": "vanilla",
+      "source": "Vanilla",
+      "workshopId": "",
+      "inputs": [
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:paintbrush"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": true,
+          "flags": [
+            "Prop1",
+            "MayDegradeVeryLight"
+          ],
+          "raw": "item 1 tags[base:paintbrush] mode:keep flags[Prop1;MayDegradeVeryLight]",
+          "labels": [
+            {
+              "id": "tag:base:paintbrush",
+              "zh": "可用物品（例如：油漆刷、手工油漆刷）",
+              "en": "Tag: base:paintbrush"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:paint"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": false,
+          "flags": [],
+          "raw": "item 1 tags[base:paint]",
+          "labels": [
+            {
+              "id": "tag:base:paint",
+              "zh": "可用物品（例如：油漆 (黑)、油漆 (藍)、油漆 (棕)）",
+              "en": "Tag: base:paint"
+            }
+          ]
+        }
+      ],
+      "outputs": [],
+      "skills": [],
+      "xp": [],
+      "time": 200.0,
+      "learned": false,
+      "tags": [],
+      "timedAction": "Paint",
+      "buildTarget": {
+        "id": "entity:Base.Paint_SignArrowDown",
+        "zh": "塗鴉 (下箭頭)",
+        "en": "Paint Sign - Down Arrow",
+        "icon": "Build_WoodSign_Down"
+      },
+      "sourceFile": "media/scripts/generated/entities/walls/paint_sign.txt"
+    },
+    {
+      "id": "Base.build.Paint_SignArrowRight",
+      "scriptId": "Paint_SignArrowRight",
+      "kind": "build",
+      "zh": "塗鴉 (右箭頭)",
+      "en": "Paint Sign - Right Arrow",
+      "translation": "translated",
+      "category": "Wall Coverings",
+      "categoryZh": "牆面處理",
+      "sourceId": "vanilla",
+      "source": "Vanilla",
+      "workshopId": "",
+      "inputs": [
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:paintbrush"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": true,
+          "flags": [
+            "Prop1",
+            "MayDegradeVeryLight"
+          ],
+          "raw": "item 1 tags[base:paintbrush] mode:keep flags[Prop1;MayDegradeVeryLight]",
+          "labels": [
+            {
+              "id": "tag:base:paintbrush",
+              "zh": "可用物品（例如：油漆刷、手工油漆刷）",
+              "en": "Tag: base:paintbrush"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:paint"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": false,
+          "flags": [],
+          "raw": "item 1 tags[base:paint]",
+          "labels": [
+            {
+              "id": "tag:base:paint",
+              "zh": "可用物品（例如：油漆 (黑)、油漆 (藍)、油漆 (棕)）",
+              "en": "Tag: base:paint"
+            }
+          ]
+        }
+      ],
+      "outputs": [],
+      "skills": [],
+      "xp": [],
+      "time": 200.0,
+      "learned": false,
+      "tags": [],
+      "timedAction": "Paint",
+      "buildTarget": {
+        "id": "entity:Base.Paint_SignArrowRight",
+        "zh": "塗鴉 (右箭頭)",
+        "en": "Paint Sign - Right Arrow",
+        "icon": "Build_WoodSign_Right"
+      },
+      "sourceFile": "media/scripts/generated/entities/walls/paint_sign.txt"
+    },
+    {
+      "id": "Base.build.Paint_SignArrowLeft",
+      "scriptId": "Paint_SignArrowLeft",
+      "kind": "build",
+      "zh": "塗鴉 (左箭頭)",
+      "en": "Paint Sign - Left Arrow",
+      "translation": "translated",
+      "category": "Wall Coverings",
+      "categoryZh": "牆面處理",
+      "sourceId": "vanilla",
+      "source": "Vanilla",
+      "workshopId": "",
+      "inputs": [
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:paintbrush"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": true,
+          "flags": [
+            "Prop1",
+            "MayDegradeVeryLight"
+          ],
+          "raw": "item 1 tags[base:paintbrush] mode:keep flags[Prop1;MayDegradeVeryLight]",
+          "labels": [
+            {
+              "id": "tag:base:paintbrush",
+              "zh": "可用物品（例如：油漆刷、手工油漆刷）",
+              "en": "Tag: base:paintbrush"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:paint"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": false,
+          "flags": [],
+          "raw": "item 1 tags[base:paint]",
+          "labels": [
+            {
+              "id": "tag:base:paint",
+              "zh": "可用物品（例如：油漆 (黑)、油漆 (藍)、油漆 (棕)）",
+              "en": "Tag: base:paint"
+            }
+          ]
+        }
+      ],
+      "outputs": [],
+      "skills": [],
+      "xp": [],
+      "time": 200.0,
+      "learned": false,
+      "tags": [],
+      "timedAction": "Paint",
+      "buildTarget": {
+        "id": "entity:Base.Paint_SignArrowLeft",
+        "zh": "塗鴉 (左箭頭)",
+        "en": "Paint Sign - Left Arrow",
+        "icon": "Build_WoodSign_Left"
+      },
+      "sourceFile": "media/scripts/generated/entities/walls/paint_sign.txt"
+    },
+    {
+      "id": "Base.build.Paint_SignSkull",
+      "scriptId": "Paint_SignSkull",
+      "kind": "build",
+      "zh": "塗鴉 (骷髏)",
+      "en": "Paint Sign - Skull",
+      "translation": "translated",
+      "category": "Wall Coverings",
+      "categoryZh": "牆面處理",
+      "sourceId": "vanilla",
+      "source": "Vanilla",
+      "workshopId": "",
+      "inputs": [
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:paintbrush"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": true,
+          "flags": [
+            "Prop1",
+            "MayDegradeVeryLight"
+          ],
+          "raw": "item 1 tags[base:paintbrush] mode:keep flags[Prop1;MayDegradeVeryLight]",
+          "labels": [
+            {
+              "id": "tag:base:paintbrush",
+              "zh": "可用物品（例如：油漆刷、手工油漆刷）",
+              "en": "Tag: base:paintbrush"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:paint"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": false,
+          "flags": [],
+          "raw": "item 1 tags[base:paint]",
+          "labels": [
+            {
+              "id": "tag:base:paint",
+              "zh": "可用物品（例如：油漆 (黑)、油漆 (藍)、油漆 (棕)）",
+              "en": "Tag: base:paint"
+            }
+          ]
+        }
+      ],
+      "outputs": [],
+      "skills": [],
+      "xp": [],
+      "time": 200.0,
+      "learned": false,
+      "tags": [],
+      "timedAction": "Paint",
+      "buildTarget": {
+        "id": "entity:Base.Paint_SignSkull",
+        "zh": "塗鴉 (骷髏)",
+        "en": "Paint Sign - Skull",
+        "icon": "Build_WoodSign_Skull"
+      },
+      "sourceFile": "media/scripts/generated/entities/walls/paint_sign.txt"
+    },
+    {
+      "id": "Base.build.Paint_Wall",
+      "scriptId": "Paint_Wall",
+      "kind": "build",
+      "zh": "往牆或物品上塗漆",
+      "en": "Paint Wall / Item",
+      "translation": "translated",
+      "category": "Wall Coverings",
+      "categoryZh": "牆面處理",
+      "sourceId": "vanilla",
+      "source": "Vanilla",
+      "workshopId": "",
+      "inputs": [
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:paintbrush"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": true,
+          "flags": [
+            "Prop1",
+            "MayDegradeVeryLight"
+          ],
+          "raw": "item 1 tags[base:paintbrush] mode:keep flags[Prop1;MayDegradeVeryLight]",
+          "labels": [
+            {
+              "id": "tag:base:paintbrush",
+              "zh": "可用物品（例如：油漆刷、手工油漆刷）",
+              "en": "Tag: base:paintbrush"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:paint"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": false,
+          "flags": [],
+          "raw": "item 1 tags[base:paint]",
+          "labels": [
+            {
+              "id": "tag:base:paint",
+              "zh": "可用物品（例如：油漆 (黑)、油漆 (藍)、油漆 (棕)）",
+              "en": "Tag: base:paint"
+            }
+          ]
+        }
+      ],
+      "outputs": [],
+      "skills": [],
+      "xp": [],
+      "time": 200.0,
+      "learned": false,
+      "tags": [],
+      "timedAction": "Paint",
+      "buildTarget": {
+        "id": "entity:Base.Paint_Wall",
+        "zh": "往牆或物品上塗漆",
+        "en": "Paint Wall / Item",
+        "icon": "Build_Wall_Paint"
+      },
+      "sourceFile": "media/scripts/generated/entities/walls/paint_wall.txt"
+    },
+    {
+      "id": "Base.build.Plaster_Wall",
+      "scriptId": "Plaster_Wall",
+      "kind": "build",
+      "zh": "為牆面抹上灰泥",
+      "en": "Plaster Wall",
+      "translation": "translated",
+      "category": "Wall Coverings",
+      "categoryZh": "牆面處理",
+      "sourceId": "vanilla",
+      "source": "Vanilla",
+      "workshopId": "",
+      "inputs": [
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:plastertrowel"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": true,
+          "flags": [
+            "Prop1",
+            "MayDegradeVeryLight"
+          ],
+          "raw": "item 1 tags[base:plastertrowel] mode:keep flags[Prop1;MayDegradeVeryLight]",
+          "labels": [
+            {
+              "id": "tag:base:plastertrowel",
+              "zh": "可用物品（例如：抹刀、木製石工抹刀）",
+              "en": "Tag: base:plastertrowel"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "Base.BucketPlasterFull",
+            "Base.BucketCarvedPlasterFull"
+          ],
+          "refMultipliers": [
+            1,
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [],
+          "raw": "item 1 [Base.BucketPlasterFull;Base.BucketCarvedPlasterFull]",
+          "labels": [
+            {
+              "id": "Base.BucketPlasterFull",
+              "zh": "水桶 (灰泥)",
+              "en": "Bucket of Plaster"
+            },
+            {
+              "id": "Base.BucketCarvedPlasterFull",
+              "zh": "雕刻木桶 (灰泥)",
+              "en": "Carved Bucket of Plaster"
+            }
+          ]
+        }
+      ],
+      "outputs": [],
+      "skills": [
+        {
+          "id": "Woodwork",
+          "zh": "木工",
+          "en": "Woodwork",
+          "level": 6
+        }
+      ],
+      "xp": [
+        {
+          "id": "Woodwork",
+          "zh": "木工",
+          "en": "Woodwork",
+          "level": 60
+        }
+      ],
+      "time": 200.0,
+      "learned": false,
+      "tags": [],
+      "timedAction": "Paint",
+      "buildTarget": {
+        "id": "entity:Base.Plaster_Wall",
+        "zh": "為牆面抹上灰泥",
+        "en": "Plaster Wall",
+        "icon": "Build_Wall_Plaster"
+      },
+      "sourceFile": "media/scripts/generated/entities/walls/plaster_wall.txt"
+    },
+    {
+      "id": "Base.build.Paper_Wall",
+      "scriptId": "Paper_Wall",
+      "kind": "build",
+      "zh": "貼壁紙",
+      "en": "Apply Wallpaper",
+      "translation": "translated",
+      "category": "Wall Coverings",
+      "categoryZh": "牆面處理",
+      "sourceId": "vanilla",
+      "source": "Vanilla",
+      "workshopId": "",
+      "inputs": [
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:paintbrush"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": true,
+          "flags": [
+            "Prop1",
+            "MayDegradeVeryLight"
+          ],
+          "raw": "item 1 tags[base:paintbrush] mode:keep flags[Prop1;MayDegradeVeryLight]",
+          "labels": [
+            {
+              "id": "tag:base:paintbrush",
+              "zh": "可用物品（例如：油漆刷、手工油漆刷）",
+              "en": "Tag: base:paintbrush"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:scissors"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": true,
+          "flags": [
+            "MayDegradeVeryLight"
+          ],
+          "raw": "item 1 tags[base:scissors] mode:keep flags[MayDegradeVeryLight]",
+          "labels": [
+            {
+              "id": "tag:base:scissors",
+              "zh": "剪刀",
+              "en": "Tag: base:scissors"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:wallpaperpaste"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": false,
+          "flags": [],
+          "raw": "item 1 tags[base:wallpaperpaste]",
+          "labels": [
+            {
+              "id": "tag:base:wallpaperpaste",
+              "zh": "可用物品（例如：雕刻木桶 (灰泥)、水桶 (壁紙膠)、雕刻木桶 (壁紙膠)）",
+              "en": "Tag: base:wallpaperpaste"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:wallpaper"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": false,
+          "flags": [],
+          "raw": "item 1 tags[base:wallpaper]",
+          "labels": [
+            {
+              "id": "tag:base:wallpaper",
+              "zh": "可用物品（例如：壁紙 (米色條紋)、壁紙 (黑色花卉)、壁紙 (藍色條紋)）",
+              "en": "Tag: base:wallpaper"
+            }
+          ]
+        }
+      ],
+      "outputs": [],
+      "skills": [],
+      "xp": [],
+      "time": 200.0,
+      "learned": false,
+      "tags": [],
+      "timedAction": "Paint",
+      "buildTarget": {
+        "id": "entity:Base.Paper_Wall",
+        "zh": "貼壁紙",
+        "en": "Apply Wallpaper",
+        "icon": "Build_Wall_Wallpaper"
+      },
+      "sourceFile": "media/scripts/generated/entities/walls/paper_wall.txt"
+    },
+    {
       "id": "Base.MeltSand",
       "scriptId": "MeltSand",
       "kind": "craft",
@@ -94329,6 +93889,101 @@
       "onCreate": "RecipeCodeOnCreate.minorCondition",
       "timedAction": "HammerStoneStanding",
       "sourceFile": "media/scripts/generated/entities/blacksmith/craftRecipes/recipes_stonemasonry_i.txt"
+    },
+    {
+      "id": "Base.build.Piano",
+      "scriptId": "Piano",
+      "kind": "build",
+      "zh": "鋼琴",
+      "en": "Piano",
+      "translation": "translated",
+      "category": "Debug",
+      "categoryZh": "管理員／除錯",
+      "sourceId": "vanilla",
+      "source": "Vanilla",
+      "workshopId": "",
+      "inputs": [
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:hammer"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": true,
+          "flags": [
+            "Prop1",
+            "MayDegradeVeryLight"
+          ],
+          "raw": "item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight]",
+          "labels": [
+            {
+              "id": "tag:base:hammer",
+              "zh": "槌子",
+              "en": "Tag: base:hammer"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 2,
+          "refs": [
+            "Base.Plank"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [],
+          "raw": "item 2 [Base.Plank]",
+          "labels": [
+            {
+              "id": "Base.Plank",
+              "zh": "木板",
+              "en": "Plank"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 4,
+          "refs": [
+            "Base.Nails"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [],
+          "raw": "item 4 [Base.Nails]",
+          "labels": [
+            {
+              "id": "Base.Nails",
+              "zh": "釘子",
+              "en": "Nails"
+            }
+          ]
+        }
+      ],
+      "outputs": [],
+      "skills": [],
+      "xp": [],
+      "time": 10.0,
+      "learned": false,
+      "tags": [],
+      "timedAction": "",
+      "buildTarget": {
+        "id": "entity:Base.Piano",
+        "zh": "鋼琴",
+        "en": "Piano",
+        "icon": ""
+      },
+      "sourceFile": "media/scripts/generated/entities/admin/entity_piano.txt"
     },
     {
       "id": "Base.GetLongStick",
@@ -137091,6 +136746,351 @@
       "onCreate": "",
       "timedAction": "HammerMetalStanding",
       "sourceFile": "media/scripts/generated/entities/blacksmith/craftRecipes/recipes_blacksmith_armor.txt"
+    },
+    {
+      "id": "Base.build.BarricadePlanks",
+      "scriptId": "BarricadePlanks",
+      "kind": "build",
+      "zh": "木板路障",
+      "en": "Planks Barricade",
+      "translation": "translated",
+      "category": "Barricades",
+      "categoryZh": "路障",
+      "sourceId": "vanilla",
+      "source": "Vanilla",
+      "workshopId": "",
+      "inputs": [
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "tag:base:hammer"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "tag",
+          "keep": true,
+          "flags": [
+            "Prop1",
+            "MayDegradeVeryLight",
+            "DontRecordInput"
+          ],
+          "raw": "item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight;DontRecordInput]",
+          "labels": [
+            {
+              "id": "tag:base:hammer",
+              "zh": "槌子",
+              "en": "Tag: base:hammer"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "Base.Plank"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [],
+          "raw": "item 1 [Base.Plank]",
+          "labels": [
+            {
+              "id": "Base.Plank",
+              "zh": "木板",
+              "en": "Plank"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "Base.Nails"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [
+            "DontRecordInput"
+          ],
+          "raw": "item 1 [Base.Nails] flags[DontRecordInput]",
+          "labels": [
+            {
+              "id": "Base.Nails",
+              "zh": "釘子",
+              "en": "Nails"
+            }
+          ]
+        }
+      ],
+      "outputs": [],
+      "skills": [],
+      "xp": [
+        {
+          "id": "Woodwork",
+          "zh": "木工",
+          "en": "Woodwork",
+          "level": 10
+        }
+      ],
+      "time": 200.0,
+      "learned": false,
+      "tags": [
+        "AutoRotate"
+      ],
+      "timedAction": "BuildWallHammer",
+      "buildTarget": {
+        "id": "entity:Base.BarricadePlanks",
+        "zh": "木板路障",
+        "en": "Planks Barricade",
+        "icon": "Build_BarricadeWindow_Plank"
+      },
+      "sourceFile": "media/scripts/generated/entities/barricades/entity_barricade_planks.txt"
+    },
+    {
+      "id": "Base.build.BarricadeMetalSheet",
+      "scriptId": "BarricadeMetalSheet",
+      "kind": "build",
+      "zh": "金屬板路障",
+      "en": "Metal Sheet Barricade",
+      "translation": "translated",
+      "category": "Barricades",
+      "categoryZh": "路障",
+      "sourceId": "vanilla",
+      "source": "Vanilla",
+      "workshopId": "",
+      "inputs": [
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "Base.BlowTorch"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [
+            "DontRecordInput"
+          ],
+          "raw": "item 1 [Base.BlowTorch] flags[DontRecordInput]",
+          "labels": [
+            {
+              "id": "Base.BlowTorch",
+              "zh": "丙烷噴燈",
+              "en": "Welding Torch"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "Base.SheetMetal"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [],
+          "raw": "item 1 [Base.SheetMetal]",
+          "labels": [
+            {
+              "id": "Base.SheetMetal",
+              "zh": "鋼板",
+              "en": "Steel Sheet"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 1,
+          "refs": [
+            "Base.WeldingRods"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [
+            "DontRecordInput"
+          ],
+          "raw": "item 1 [Base.WeldingRods] flags[DontRecordInput]",
+          "labels": [
+            {
+              "id": "Base.WeldingRods",
+              "zh": "焊條",
+              "en": "Welding Rods"
+            }
+          ]
+        }
+      ],
+      "outputs": [],
+      "skills": [
+        {
+          "id": "MetalWelding",
+          "zh": "焊接",
+          "en": "Metal Welding",
+          "level": 3
+        }
+      ],
+      "xp": [
+        {
+          "id": "MetalWelding",
+          "zh": "焊接",
+          "en": "Metal Welding",
+          "level": 30
+        }
+      ],
+      "time": 200.0,
+      "learned": false,
+      "tags": [
+        "AutoRotate"
+      ],
+      "timedAction": "BuildPoleFence",
+      "buildTarget": {
+        "id": "entity:Base.BarricadeMetalSheet",
+        "zh": "金屬板路障",
+        "en": "Metal Sheet Barricade",
+        "icon": "Build_BarricadeWindow_Sheet"
+      },
+      "sourceFile": "media/scripts/generated/entities/barricades/entity_barricade_metalsheet.txt"
+    },
+    {
+      "id": "Base.build.BarricadeMetalBar",
+      "scriptId": "BarricadeMetalBar",
+      "kind": "build",
+      "zh": "金屬柵欄路障",
+      "en": "Metal Bar Barricade",
+      "translation": "translated",
+      "category": "Barricades",
+      "categoryZh": "路障",
+      "sourceId": "vanilla",
+      "source": "Vanilla",
+      "workshopId": "",
+      "inputs": [
+        {
+          "kind": "item",
+          "count": 3,
+          "refs": [
+            "Base.BlowTorch"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [
+            "DontRecordInput"
+          ],
+          "raw": "item 3 [Base.BlowTorch] flags[DontRecordInput]",
+          "labels": [
+            {
+              "id": "Base.BlowTorch",
+              "zh": "丙烷噴燈",
+              "en": "Welding Torch"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 3,
+          "refs": [
+            "Base.IronBar",
+            "Base.MetalBar",
+            "Base.SteelBar"
+          ],
+          "refMultipliers": [
+            1,
+            1,
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [],
+          "raw": "item 3 [Base.IronBar;Base.MetalBar;Base.SteelBar]",
+          "labels": [
+            {
+              "id": "Base.IronBar",
+              "zh": "鐵條",
+              "en": "Iron Bar"
+            },
+            {
+              "id": "Base.MetalBar",
+              "zh": "鋼棒",
+              "en": "Steel Rod"
+            },
+            {
+              "id": "Base.SteelBar",
+              "zh": "鋼條",
+              "en": "Steel Bar"
+            }
+          ]
+        },
+        {
+          "kind": "item",
+          "count": 3,
+          "refs": [
+            "Base.WeldingRods"
+          ],
+          "refMultipliers": [
+            1
+          ],
+          "refType": "item",
+          "keep": false,
+          "flags": [
+            "DontRecordInput"
+          ],
+          "raw": "item 3 [Base.WeldingRods] flags[DontRecordInput]",
+          "labels": [
+            {
+              "id": "Base.WeldingRods",
+              "zh": "焊條",
+              "en": "Welding Rods"
+            }
+          ]
+        }
+      ],
+      "outputs": [],
+      "skills": [
+        {
+          "id": "MetalWelding",
+          "zh": "焊接",
+          "en": "Metal Welding",
+          "level": 3
+        }
+      ],
+      "xp": [
+        {
+          "id": "MetalWelding",
+          "zh": "焊接",
+          "en": "Metal Welding",
+          "level": 30
+        }
+      ],
+      "time": 200.0,
+      "learned": false,
+      "tags": [
+        "AutoRotate"
+      ],
+      "timedAction": "BuildPoleFence",
+      "buildTarget": {
+        "id": "entity:Base.BarricadeMetalBar",
+        "zh": "金屬柵欄路障",
+        "en": "Metal Bar Barricade",
+        "icon": "Build_BarricadeWindow_Bars"
+      },
+      "sourceFile": "media/scripts/generated/entities/barricades/entity_barricade_metalbar.txt"
     },
     {
       "id": "Base.build.DryingRackMedium",
