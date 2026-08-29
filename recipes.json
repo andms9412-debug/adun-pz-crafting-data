@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Adun PZ 合成百科",
-    "generatedAt": "2026-08-29T17:08:43.724038+00:00",
+    "generatedAt": "2026-08-29T17:10:42.136760+00:00",
     "gameVersion": "42.20.4",
     "steamBuildId": "24909836",
     "profile": "adun_pz",
@@ -13,22 +13,22 @@
     "acquisitionEvidenceCount": 4594,
     "acquisitionUnverifiedCount": 143,
     "acquisitionEvidenceByType": {
-      "animal": 116,
+      "animal": 114,
       "breakage": 104,
-      "farming": 65,
+      "farming": 51,
       "fishing": 21,
-      "foraging": 1857,
+      "foraging": 1799,
       "mining": 7,
       "pairedItem": 358,
-      "scripted": 491,
-      "stateChange": 58,
+      "scripted": 286,
+      "stateChange": 55,
       "systemState": 221,
       "trapping": 5,
       "unverified": 143,
       "vehicleLoot": 1359,
       "vehiclePart": 169,
-      "worldLoot": 3232,
-      "worldObject": 411
+      "worldLoot": 3224,
+      "worldObject": 399
     },
     "parseErrors": [],
     "sources": [
@@ -231,12 +231,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         }
       ]
     },
@@ -301,12 +295,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         }
       ]
     },
@@ -335,12 +323,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         }
       ]
     },
@@ -369,12 +351,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         }
       ]
     },
@@ -439,12 +415,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         }
       ]
     },
@@ -473,12 +443,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/LastStand/Challenge1.lua"
         }
       ]
     },
@@ -1283,24 +1247,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/server/Traps/STrapGlobalObject.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/TimedActions/Animals/ISHutchGrabAnimal.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/TimedActions/Animals/ISPickupAnimal.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/TimedActions/Animals/ISRemoveAnimalFromTrailer.lua"
         }
       ]
     },
@@ -2231,18 +2177,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/PatrickScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 7 處。",
@@ -2285,12 +2219,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/PatrickScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         },
         {
           "type": "vehicleLoot",
@@ -2478,60 +2406,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/PatrickScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/SashaScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Arrival.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Building.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_GasStation.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Roadtrip.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Water.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/LastStand/Challenge1.lua"
         },
         {
           "type": "vehicleLoot",
@@ -3037,12 +2911,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tutorial/Steps.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 8 處。",
@@ -3083,42 +2951,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Arrival.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Building.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Fishing.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_GasStation.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Roadtrip.lua"
         },
         {
           "type": "vehicleLoot",
@@ -3988,18 +3820,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2_LimpWPScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2_PoliceScenario.lua"
         },
         {
           "type": "worldLoot",
@@ -7808,12 +7628,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tutorial/Steps.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 17 處。",
@@ -9044,22 +8858,10 @@
           "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
         },
         {
-          "type": "farming",
-          "labelZh": "農耕收成",
-          "detailZh": "完成對應作物的種植與收成後，可作為留種／種子收成取得。",
-          "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
-        },
-        {
           "type": "foraging",
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/WildPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -9157,24 +8959,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/PatrickScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/LastStand/Challenge1.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         },
         {
           "type": "vehicleLoot",
@@ -9565,12 +9349,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Herbs.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -10236,22 +10014,10 @@
           "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
         },
         {
-          "type": "farming",
-          "labelZh": "農耕收成",
-          "detailZh": "完成對應作物的種植與收成後，可作為留種／種子收成取得。",
-          "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
-        },
-        {
           "type": "foraging",
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -11473,12 +11239,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/MedicinalPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -20279,12 +20039,6 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 17 處。",
@@ -20635,12 +20389,6 @@
           "labelZh": "物品使用後的狀態產物",
           "detailZh": "由另一件物品在使用、耗盡、烹煮或腐壞後轉換而來。",
           "sourceFile": "media/scripts/generated/items/drainable.txt"
-        },
-        {
-          "type": "stateChange",
-          "labelZh": "物品使用後的狀態產物",
-          "detailZh": "由另一件物品在使用、耗盡、烹煮或腐壞後轉換而來。",
-          "sourceFile": "media/scripts/generated/items/food.txt"
         },
         {
           "type": "vehicleLoot",
@@ -21362,12 +21110,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 15 處。",
@@ -21456,12 +21198,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         },
         {
           "type": "vehicleLoot",
@@ -22195,12 +21931,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -23228,18 +22958,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/shared/TimedActions/ISDropWorldItemAction.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/TimedActions/ISLitCandleExtinguish.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/TimedActions/ISTransferAction.lua"
         },
         {
           "type": "vehicleLoot",
@@ -25840,12 +25558,6 @@
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 13 處。",
           "sourceFile": "media/lua/server/Items/Distribution_BinJunk.lua"
-        },
-        {
-          "type": "worldLoot",
-          "labelZh": "世界容器搜刮",
-          "detailZh": "在已安裝遊戲的戰利品表中出現 1 處。",
-          "sourceFile": "steamapps/workshop/content/108600/3773972040/mods/RV_Interior/42/media/lua/server/Items/ArcadiaRVPowerBank_Distributions.lua"
         }
       ]
     },
@@ -26311,12 +26023,6 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 20 處。",
@@ -26559,12 +26265,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -27265,12 +26965,6 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/Herbs.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 2 處。",
@@ -27699,12 +27393,6 @@
           "labelZh": "畜牧／屠宰動物",
           "detailZh": "列在動物產物、屠宰部位或禽蛋設定中。",
           "sourceFile": "media/lua/shared/Definitions/animal/AnimalPartsDefinitions.lua"
-        },
-        {
-          "type": "animal",
-          "labelZh": "畜牧／屠宰動物",
-          "detailZh": "列在動物產物、屠宰部位或禽蛋設定中。",
-          "sourceFile": "media/lua/shared/Definitions/animal/ChickenDefinitions.lua"
         }
       ]
     },
@@ -28107,12 +27795,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Herbs.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -29353,12 +29035,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Herbs.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -31037,12 +30713,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/MedicinalPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -31229,12 +30899,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/MedicinalPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -32495,22 +32159,10 @@
           "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
         },
         {
-          "type": "farming",
-          "labelZh": "農耕收成",
-          "detailZh": "完成對應作物的種植與收成後，可作為留種／種子收成取得。",
-          "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
-        },
-        {
           "type": "foraging",
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -33551,12 +33203,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         }
       ]
     },
@@ -33990,30 +33636,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2_LimpWPScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2_PoliceScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario.lua"
         },
         {
           "type": "vehicleLoot",
@@ -34531,22 +34153,10 @@
           "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
         },
         {
-          "type": "farming",
-          "labelZh": "農耕收成",
-          "detailZh": "完成對應作物的種植與收成後，可作為留種／種子收成取得。",
-          "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
-        },
-        {
           "type": "foraging",
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -35472,12 +35082,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/Tutorial/Steps.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tutorial/Tutorial1.lua"
         },
         {
           "type": "trapping",
@@ -37116,12 +36720,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/PatrickScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 2 處。",
@@ -38617,12 +38215,6 @@
           "sourceFile": "media/lua/client/Tutorial/Steps.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tutorial/Tutorial1.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 7 處。",
@@ -39987,12 +39579,6 @@
           "sourceFile": "media/lua/shared/Vehicles/TimedActions/ISRemoveBurntVehicle.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "steamapps/workshop/content/108600/3725311427/mods/Plysken Solar Revolution/42.1/media/lua/server/PSR/World/RandomWorldSpawns.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 9 處。",
@@ -40003,12 +39589,6 @@
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 55 處。",
           "sourceFile": "media/lua/server/Items/Distribution_BagsAndContainers.lua"
-        },
-        {
-          "type": "worldLoot",
-          "labelZh": "世界容器搜刮",
-          "detailZh": "在已安裝遊戲的戰利品表中出現 2 處。",
-          "sourceFile": "steamapps/workshop/content/108600/3725311427/mods/Plysken Solar Revolution/42.1/media/lua/server/PSR/Items/Distributions.lua"
         }
       ]
     },
@@ -40145,12 +39725,6 @@
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 41 處。",
           "sourceFile": "media/lua/server/Items/Distribution_BagsAndContainers.lua"
-        },
-        {
-          "type": "worldLoot",
-          "labelZh": "世界容器搜刮",
-          "detailZh": "在已安裝遊戲的戰利品表中出現 1 處。",
-          "sourceFile": "steamapps/workshop/content/108600/3773972040/mods/RV_Interior/42/media/lua/server/Items/ArcadiaRVPowerMagazine_Distributions.lua"
         }
       ]
     },
@@ -40219,12 +39793,6 @@
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 38 處。",
           "sourceFile": "media/lua/server/Items/Distribution_BagsAndContainers.lua"
-        },
-        {
-          "type": "worldLoot",
-          "labelZh": "世界容器搜刮",
-          "detailZh": "在已安裝遊戲的戰利品表中出現 2 處。",
-          "sourceFile": "steamapps/workshop/content/108600/3725311427/mods/Plysken Solar Revolution/42.1/media/lua/server/PSR/Items/Distributions.lua"
         }
       ]
     },
@@ -40279,12 +39847,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/Tutorial/Steps.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tutorial/Tutorial1.lua"
         },
         {
           "type": "stateChange",
@@ -40497,12 +40059,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/shared/Vehicles/TimedActions/ISRemoveBurntVehicle.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Vehicles/TimedActions/ISTakeEngineParts.lua"
         },
         {
           "type": "vehicleLoot",
@@ -43168,18 +42724,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/AiteronScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Water.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 8 處。",
@@ -43288,18 +42832,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/AiteronScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Water.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/server/Fishing/BuildingObjects/FishingNet.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 6 處。",
@@ -43342,30 +42874,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/AiteronScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Fishing.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Water.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         },
         {
           "type": "vehicleLoot",
@@ -43811,22 +43319,10 @@
           "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
         },
         {
-          "type": "farming",
-          "labelZh": "農耕收成",
-          "detailZh": "完成對應作物的種植與收成後，可作為留種／種子收成取得。",
-          "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
-        },
-        {
           "type": "foraging",
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/WildPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -46148,12 +45644,6 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 7 處。",
@@ -46373,24 +45863,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Building.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tests/TimedActionsTests.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Moveables/ISMoveableSpriteProps.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "steamapps/workshop/content/108600/3773972040/mods/RV_Interior/42/media/lua/server/rvInteriorServer.lua"
         },
         {
           "type": "vehicleLoot",
@@ -48695,36 +48167,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Arrival.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Building.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Fishing.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_GasStation.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Roadtrip.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 18 處。",
@@ -49632,24 +49074,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/server/Map/MapObjects/MOFeedingTrough.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/TimedActions/ISPickupDung.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/TimedActions/ISRemoveGrass.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/TimedActions/ISScything.lua"
         }
       ]
     },
@@ -50536,22 +49960,10 @@
           "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
         },
         {
-          "type": "farming",
-          "labelZh": "農耕收成",
-          "detailZh": "完成對應作物的種植與收成後，可作為留種／種子收成取得。",
-          "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
-        },
-        {
           "type": "foraging",
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -51891,30 +51303,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/LotsaZombies.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Building.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/LastStand/Challenge1.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 6 處。",
@@ -52014,12 +51402,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/WeaponScenario.lua"
         },
         {
           "type": "vehicleLoot",
@@ -59763,36 +59145,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Arrival.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Building.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Fishing.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_GasStation.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Roadtrip.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 21 處。",
@@ -60246,24 +59598,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2_LimpWPScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2_PoliceScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tutorial/Steps.lua"
         }
       ]
     },
@@ -60384,12 +59718,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/WildPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -60943,18 +60271,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tutorial/Steps.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 6 處。",
@@ -61182,18 +60498,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/PatrickScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         },
         {
           "type": "vehicleLoot",
@@ -62326,12 +61630,6 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/Junk.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "出現在 Build 42 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/Categories/Trash.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 9 處。",
@@ -62846,42 +62144,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Arrival.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Building.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Fishing.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_GasStation.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Roadtrip.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tutorial/Steps.lua"
         },
         {
           "type": "worldLoot",
@@ -64822,12 +64084,6 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 11 處。",
@@ -65236,24 +64492,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/AdminContextMenu.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/DebugContextMenu.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/ISUI/ISWorldObjectContextMenu.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/server/ClientCommands.lua"
         },
         {
           "type": "worldLoot",
@@ -66152,18 +65390,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/SashaScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/LastStand/Challenge1.lua"
         },
         {
           "type": "vehicleLoot",
@@ -67422,12 +66648,6 @@
           "sourceFile": "media/lua/shared/TimedActions/ISDropWorldItemAction.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/TimedActions/ISTransferAction.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 5 處。",
@@ -68095,12 +67315,6 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/Herbs.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 2 處。",
@@ -68618,12 +67832,6 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 18 處。",
@@ -68773,12 +67981,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/MedicinalPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -68945,12 +68147,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -71233,18 +70429,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/WeaponScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         },
         {
           "type": "vehicleLoot",
@@ -73661,12 +72845,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/ISUI/Maps/Editor/WorldMapEditor.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/ISUI/Maps/ISWorldMap.lua"
         }
       ]
     },
@@ -73807,12 +72985,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/WildPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "vehicleLoot",
@@ -74827,18 +73999,6 @@
           "sourceFile": "media/lua/shared/TimedActions/ISUnbarricadeAction.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Vehicles/TimedActions/ISRemoveBurntVehicle.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "steamapps/workshop/content/108600/3725311427/mods/Plysken Solar Revolution/42.1/media/lua/server/PSR/World/RandomWorldSpawns.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 4 處。",
@@ -74849,12 +74009,6 @@
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 19 處。",
           "sourceFile": "media/lua/server/Items/Distribution_BinJunk.lua"
-        },
-        {
-          "type": "worldLoot",
-          "labelZh": "世界容器搜刮",
-          "detailZh": "在已安裝遊戲的戰利品表中出現 2 處。",
-          "sourceFile": "steamapps/workshop/content/108600/3725311427/mods/Plysken Solar Revolution/42.1/media/lua/server/PSR/Items/Distributions.lua"
         }
       ]
     },
@@ -75632,12 +74786,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Herbs.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -76845,12 +75993,6 @@
         {
           "type": "worldObject",
           "labelZh": "搬運／拾取世界物件",
-          "detailZh": "地圖物件定義指定搬運或拾取後會轉成這個物品。",
-          "sourceFile": "media/newtiledefinitions.tiles.txt"
-        },
-        {
-          "type": "worldObject",
-          "labelZh": "搬運／拾取世界物件",
           "detailZh": "這是場景中的可搬運物件，可從對應家具或設備使用搬運功能取得。",
           "sourceFile": "media/scripts/generated/items/moveable.txt"
         }
@@ -77945,12 +77087,6 @@
         {
           "type": "worldObject",
           "labelZh": "搬運／拾取世界物件",
-          "detailZh": "地圖物件定義指定搬運或拾取後會轉成這個物品。",
-          "sourceFile": "media/newtiledefinitions.tiles.txt"
-        },
-        {
-          "type": "worldObject",
-          "labelZh": "搬運／拾取世界物件",
           "detailZh": "這是場景中的可搬運物件，可從對應家具或設備使用搬運功能取得。",
           "sourceFile": "media/scripts/generated/items/moveable.txt"
         }
@@ -78064,12 +77200,6 @@
       "workshopId": "",
       "sourceFile": "media/scripts/generated/items/moveable.txt",
       "acquisitionEvidence": [
-        {
-          "type": "worldObject",
-          "labelZh": "搬運／拾取世界物件",
-          "detailZh": "地圖物件定義指定搬運或拾取後會轉成這個物品。",
-          "sourceFile": "media/newtiledefinitions.tiles.txt"
-        },
         {
           "type": "worldObject",
           "labelZh": "搬運／拾取世界物件",
@@ -78343,12 +77473,6 @@
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 6 處。",
           "sourceFile": "media/lua/server/Items/ProceduralDistributions.lua"
-        },
-        {
-          "type": "worldObject",
-          "labelZh": "搬運／拾取世界物件",
-          "detailZh": "地圖物件定義指定搬運或拾取後會轉成這個物品。",
-          "sourceFile": "media/newtiledefinitions.tiles.txt"
         },
         {
           "type": "worldObject",
@@ -78871,12 +77995,6 @@
         {
           "type": "worldObject",
           "labelZh": "搬運／拾取世界物件",
-          "detailZh": "地圖物件定義指定搬運或拾取後會轉成這個物品。",
-          "sourceFile": "media/newtiledefinitions.tiles.txt"
-        },
-        {
-          "type": "worldObject",
-          "labelZh": "搬運／拾取世界物件",
           "detailZh": "這是場景中的可搬運物件，可從對應家具或設備使用搬運功能取得。",
           "sourceFile": "media/scripts/generated/items/moveable.txt"
         }
@@ -79309,12 +78427,6 @@
         {
           "type": "worldObject",
           "labelZh": "搬運／拾取世界物件",
-          "detailZh": "地圖物件定義指定搬運或拾取後會轉成這個物品。",
-          "sourceFile": "media/newtiledefinitions.tiles.txt"
-        },
-        {
-          "type": "worldObject",
-          "labelZh": "搬運／拾取世界物件",
           "detailZh": "這是場景中的可搬運物件，可從對應家具或設備使用搬運功能取得。",
           "sourceFile": "media/scripts/generated/items/moveable.txt"
         }
@@ -79511,12 +78623,6 @@
         {
           "type": "worldObject",
           "labelZh": "搬運／拾取世界物件",
-          "detailZh": "地圖物件定義指定搬運或拾取後會轉成這個物品。",
-          "sourceFile": "media/newtiledefinitions.tiles.txt"
-        },
-        {
-          "type": "worldObject",
-          "labelZh": "搬運／拾取世界物件",
           "detailZh": "這是場景中的可搬運物件，可從對應家具或設備使用搬運功能取得。",
           "sourceFile": "media/scripts/generated/items/moveable.txt"
         }
@@ -79543,12 +78649,6 @@
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 4 處。",
           "sourceFile": "media/lua/server/Items/ProceduralDistributions.lua"
-        },
-        {
-          "type": "worldObject",
-          "labelZh": "搬運／拾取世界物件",
-          "detailZh": "地圖物件定義指定搬運或拾取後會轉成這個物品。",
-          "sourceFile": "media/newtiledefinitions.tiles.txt"
         },
         {
           "type": "worldObject",
@@ -79788,12 +78888,6 @@
       "workshopId": "",
       "sourceFile": "media/scripts/generated/items/moveable.txt",
       "acquisitionEvidence": [
-        {
-          "type": "worldObject",
-          "labelZh": "搬運／拾取世界物件",
-          "detailZh": "地圖物件定義指定搬運或拾取後會轉成這個物品。",
-          "sourceFile": "media/newtiledefinitions.tiles.txt"
-        },
         {
           "type": "worldObject",
           "labelZh": "搬運／拾取世界物件",
@@ -80090,12 +79184,6 @@
       "workshopId": "",
       "sourceFile": "media/scripts/generated/items/moveable.txt",
       "acquisitionEvidence": [
-        {
-          "type": "worldObject",
-          "labelZh": "搬運／拾取世界物件",
-          "detailZh": "地圖物件定義指定搬運或拾取後會轉成這個物品。",
-          "sourceFile": "media/newtiledefinitions.tiles.txt"
-        },
         {
           "type": "worldObject",
           "labelZh": "搬運／拾取世界物件",
@@ -81054,12 +80142,6 @@
       "workshopId": "",
       "sourceFile": "media/scripts/generated/items/moveable.txt",
       "acquisitionEvidence": [
-        {
-          "type": "worldObject",
-          "labelZh": "搬運／拾取世界物件",
-          "detailZh": "地圖物件定義指定搬運或拾取後會轉成這個物品。",
-          "sourceFile": "media/newtiledefinitions.tiles.txt"
-        },
         {
           "type": "worldObject",
           "labelZh": "搬運／拾取世界物件",
@@ -83026,12 +82108,6 @@
       "workshopId": "",
       "sourceFile": "media/scripts/generated/items/moveable.txt",
       "acquisitionEvidence": [
-        {
-          "type": "worldObject",
-          "labelZh": "搬運／拾取世界物件",
-          "detailZh": "地圖物件定義指定搬運或拾取後會轉成這個物品。",
-          "sourceFile": "media/newtiledefinitions.tiles.txt"
-        },
         {
           "type": "worldObject",
           "labelZh": "搬運／拾取世界物件",
@@ -85669,34 +84745,10 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/CraftingMaterials.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "出現在 Build 42 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/Categories/Junk.lua"
-        },
-        {
           "type": "scripted",
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Building.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/LastStand/Challenge1.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/server/BuildingObjects/ISBuildUtil.lua"
         },
         {
           "type": "worldLoot",
@@ -88930,12 +87982,6 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 28 處。",
@@ -89089,12 +88135,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Herbs.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -90168,24 +89208,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Multiplayer.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer1Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tutorial/Steps.lua"
         },
         {
           "type": "stateChange",
@@ -92205,12 +91227,6 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/Herbs.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 2 處。",
@@ -92947,12 +91963,6 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/Fruits.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 4 處。",
@@ -92997,12 +92007,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Fruits.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -94787,12 +93791,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/LastStand/Challenge1.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 13 處。",
@@ -95228,24 +94226,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/PatrickScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/LastStand/Challenge1.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 14 處。",
@@ -95290,18 +94270,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/PatrickScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 9 處。",
@@ -95344,12 +94312,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/PatrickScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         },
         {
           "type": "vehicleLoot",
@@ -95564,12 +94526,6 @@
         {
           "type": "foraging",
           "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/client/Foraging/ISSearchManager.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/JunkWeapons.lua"
         },
@@ -95578,36 +94534,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/LotsaZombies.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Foraging/ISSearchManager.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/LastStand/Challenge1.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/server/BuildingObjects/ISBrushToolTileCursor.lua"
         },
         {
           "type": "vehicleLoot",
@@ -95806,12 +94732,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/MedicinalPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -97116,12 +96036,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/WildPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -97599,12 +96513,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -98378,12 +97286,6 @@
           "type": "farming",
           "labelZh": "農耕收成",
           "detailZh": "完成對應作物的種植與收成後，可作為收成作物取得。",
-          "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
-        },
-        {
-          "type": "farming",
-          "labelZh": "農耕收成",
-          "detailZh": "完成對應作物的種植與收成後，可作為留種／種子收成取得。",
           "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
         },
         {
@@ -100472,12 +99374,6 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 17 處。",
@@ -100718,12 +99614,6 @@
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 4 處。",
           "sourceFile": "media/lua/server/Items/Distributions.lua"
-        },
-        {
-          "type": "worldLoot",
-          "labelZh": "世界容器搜刮",
-          "detailZh": "在已安裝遊戲的戰利品表中出現 2 處。",
-          "sourceFile": "steamapps/workshop/content/108600/3725311427/mods/Plysken Solar Revolution/42.1/media/lua/server/PSR/Items/Distributions.lua"
         }
       ]
     },
@@ -100845,12 +99735,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/PatrickScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         },
         {
           "type": "vehicleLoot",
@@ -100995,54 +99879,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/PatrickScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Arrival.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Building.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Fishing.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_GasStation.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Roadtrip.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 18 處。",
@@ -101085,12 +99921,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/PatrickScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         },
         {
           "type": "vehicleLoot",
@@ -102205,12 +101035,6 @@
           "sourceFile": "media/scripts/generated/items/drainable.txt"
         },
         {
-          "type": "stateChange",
-          "labelZh": "物品使用後的狀態產物",
-          "detailZh": "由另一件物品在使用、耗盡、烹煮或腐壞後轉換而來。",
-          "sourceFile": "media/scripts/generated/items/normal.txt"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 68 處。",
@@ -102429,12 +101253,6 @@
           "sourceFile": "media/lua/shared/TimedActions/Animals/ISAttachAnimalToPlayer.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/TimedActions/Animals/ISAttachAnimalToTree.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 33 處。",
@@ -102619,12 +101437,6 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/Herbs.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 2 處。",
@@ -102735,12 +101547,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/WildPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "vehicleLoot",
@@ -103042,22 +101848,10 @@
           "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
         },
         {
-          "type": "farming",
-          "labelZh": "農耕收成",
-          "detailZh": "完成對應作物的種植與收成後，可作為留種／種子收成取得。",
-          "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
-        },
-        {
           "type": "foraging",
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/WildPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -103159,12 +101953,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Herbs.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -103842,12 +102630,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/WeaponScenario.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 9 處。",
@@ -104042,12 +102824,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/WeaponScenario.lua"
         },
         {
           "type": "vehicleLoot",
@@ -104526,12 +103302,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 15 處。",
@@ -104634,12 +103404,6 @@
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 15 處。",
           "sourceFile": "media/lua/server/Items/Distribution_BagsAndContainers.lua"
-        },
-        {
-          "type": "worldLoot",
-          "labelZh": "世界容器搜刮",
-          "detailZh": "在已安裝遊戲的戰利品表中出現 2 處。",
-          "sourceFile": "steamapps/workshop/content/108600/3725311427/mods/Plysken Solar Revolution/42.1/media/lua/server/PSR/Items/Distributions.lua"
         }
       ]
     },
@@ -105719,30 +104483,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer1Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tests/RecipeTests.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/TimedActions/ISDestroyStuffAction.lua"
         },
         {
           "type": "vehicleLoot",
@@ -108419,12 +107159,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/Multiplayer.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer1Scenario.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 3 處。",
@@ -108465,36 +107199,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Arrival.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Building.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Fishing.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_GasStation.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Roadtrip.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 14 處。",
@@ -108527,24 +107231,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2_LimpWPScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2_PoliceScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tutorial/Tutorial1.lua"
         },
         {
           "type": "worldLoot",
@@ -110086,48 +108772,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Multiplayer.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/PatrickScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer1Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/LastStand/Challenge1.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tutorial/Steps.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 19 處。",
@@ -110270,12 +108914,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/LastStand/Challenge1.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 33 處。",
@@ -110308,12 +108946,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         },
         {
           "type": "vehicleLoot",
@@ -111069,18 +109701,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/BobKates.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/WeaponScenario.lua"
         },
         {
           "type": "vehicleLoot",
@@ -111923,12 +110543,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Building.lua"
         },
         {
           "type": "vehicleLoot",
@@ -113176,12 +111790,6 @@
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 11 處。",
           "sourceFile": "media/lua/server/Items/Distribution_BinJunk.lua"
-        },
-        {
-          "type": "worldLoot",
-          "labelZh": "世界容器搜刮",
-          "detailZh": "在已安裝遊戲的戰利品表中出現 2 處。",
-          "sourceFile": "steamapps/workshop/content/108600/3725311427/mods/Plysken Solar Revolution/42.1/media/lua/server/PSR/Items/Distributions.lua"
         }
       ]
     },
@@ -114314,72 +112922,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/Multiplayer.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer1Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2_LimpWPScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2_PoliceScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Arrival.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Building.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Fishing.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_GasStation.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Roadtrip.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tutorial/Tutorial1.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 33 處。",
@@ -114661,22 +113203,10 @@
           "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
         },
         {
-          "type": "farming",
-          "labelZh": "農耕收成",
-          "detailZh": "完成對應作物的種植與收成後，可作為留種／種子收成取得。",
-          "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
-        },
-        {
           "type": "foraging",
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -115206,12 +113736,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/DebugScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/WeaponScenario.lua"
         }
       ]
     },
@@ -115976,12 +114500,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -117399,12 +115917,6 @@
           "sourceFile": "media/lua/server/Camping/SCampfireSystemCommands.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Camping/TimedActions/ISRemoveCampfireAction.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 5 處。",
@@ -117884,22 +116396,10 @@
           "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
         },
         {
-          "type": "farming",
-          "labelZh": "農耕收成",
-          "detailZh": "完成對應作物的種植與收成後，可作為留種／種子收成取得。",
-          "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
-        },
-        {
           "type": "foraging",
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Fruits.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -118083,12 +116583,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -118498,12 +116992,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/WildPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -118875,12 +117363,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -120621,12 +119103,6 @@
           "labelZh": "物品使用後的狀態產物",
           "detailZh": "由另一件物品在使用、耗盡、烹煮或腐壞後轉換而來。",
           "sourceFile": "media/scripts/generated/items/drainable.txt"
-        },
-        {
-          "type": "stateChange",
-          "labelZh": "物品使用後的狀態產物",
-          "detailZh": "由另一件物品在使用、耗盡、烹煮或腐壞後轉換而來。",
-          "sourceFile": "media/scripts/generated/items/food.txt"
         }
       ]
     },
@@ -121567,12 +120043,6 @@
           "sourceFile": "media/lua/shared/Foraging/Categories/Herbs.lua"
         },
         {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 2 處。",
@@ -122482,12 +120952,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/WildPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -122773,22 +121237,10 @@
           "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
         },
         {
-          "type": "farming",
-          "labelZh": "農耕收成",
-          "detailZh": "完成對應作物的種植與收成後，可作為留種／種子收成取得。",
-          "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
-        },
-        {
           "type": "foraging",
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -123305,18 +121757,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/BobKates.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/LastStand/Challenge1.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         },
         {
           "type": "vehicleLoot",
@@ -124652,36 +123092,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Arrival.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Building.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Fishing.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_GasStation.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Roadtrip.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 23 處。",
@@ -125005,30 +123415,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/Multiplayer.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer1Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2_LimpWPScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2_PoliceScenario.lua"
         },
         {
           "type": "vehicleLoot",
@@ -126396,72 +124782,6 @@
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/Multiplayer.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer1Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2_LimpWPScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer2_PoliceScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Arrival.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Building.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Fishing.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_GasStation.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Roadtrip.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tutorial/Tutorial1.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 34 處。",
@@ -127783,12 +126103,6 @@
           "sourceFile": "media/lua/shared/Definitions/animal/AnimalPartsDefinitions.lua"
         },
         {
-          "type": "animal",
-          "labelZh": "畜牧／屠宰動物",
-          "detailZh": "列在動物產物、屠宰部位或禽蛋設定中。",
-          "sourceFile": "media/lua/shared/Definitions/animal/TurkeyDefinitions.lua"
-        },
-        {
           "type": "worldLoot",
           "labelZh": "世界容器搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 2 處。",
@@ -128006,12 +126320,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -128575,12 +126883,6 @@
         {
           "type": "foraging",
           "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/client/Foraging/ISSearchManager.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Trash.lua"
         },
@@ -128606,12 +126908,6 @@
       "workshopId": "",
       "sourceFile": "media/scripts/generated/items/normal.txt",
       "acquisitionEvidence": [
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/client/Foraging/ISSearchManager.lua"
-        },
         {
           "type": "foraging",
           "labelZh": "野外採集",
@@ -129533,18 +127829,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/FenrisScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/PatrickScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         },
         {
           "type": "vehicleLoot",
@@ -131467,18 +129751,6 @@
           "sourceFile": "media/lua/client/Tests/RecipeTests.lua"
         },
         {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/Tests/RecipeUtils.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
-        },
-        {
           "type": "vehicleLoot",
           "labelZh": "車輛搜刮",
           "detailZh": "在已安裝遊戲的戰利品表中出現 8 處。",
@@ -131902,22 +130174,10 @@
           "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
         },
         {
-          "type": "farming",
-          "labelZh": "農耕收成",
-          "detailZh": "完成對應作物的種植與收成後，可作為留種／種子收成取得。",
-          "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
-        },
-        {
           "type": "foraging",
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Fruits.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -132584,22 +130844,10 @@
           "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
         },
         {
-          "type": "farming",
-          "labelZh": "農耕收成",
-          "detailZh": "完成對應作物的種植與收成後，可作為留種／種子收成取得。",
-          "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
-        },
-        {
           "type": "foraging",
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/WildPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -132905,12 +131153,6 @@
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/MedicinalPlants.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         }
       ]
     },
@@ -134061,36 +132303,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "media/lua/client/DebugUIs/Scenarios/AiteronScenario.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Trailer3Scenario_Fishing.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/client/DebugUIs/Scenarios/Water.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/server/ClientCommands.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/BuildingObjects/TimedActions/ISShovelGround.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "media/lua/shared/Items/SpawnItems.lua"
         },
         {
           "type": "worldLoot",
@@ -137652,22 +135864,10 @@
           "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
         },
         {
-          "type": "farming",
-          "labelZh": "農耕收成",
-          "detailZh": "完成對應作物的種植與收成後，可作為留種／種子收成取得。",
-          "sourceFile": "media/lua/server/Farming/farming_vegetableconf_vegetables.lua"
-        },
-        {
           "type": "foraging",
           "labelZh": "野外採集",
           "detailZh": "出現在 Build 42 的採集定義中。",
           "sourceFile": "media/lua/shared/Foraging/Categories/Vegetables.lua"
-        },
-        {
-          "type": "foraging",
-          "labelZh": "野外採集",
-          "detailZh": "列在已安裝遊戲或 Mod 的採集定義中。",
-          "sourceFile": "media/lua/shared/Foraging/forageSystem.lua"
         },
         {
           "type": "worldLoot",
@@ -137937,18 +136137,6 @@
           "labelZh": "遊戲互動／事件產生",
           "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
           "sourceFile": "steamapps/workshop/content/108600/3739173520/mods/Plysken Irrigation Pipes/42.1/media/lua/client/PIP/PIPClientCommands.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "steamapps/workshop/content/108600/3739173520/mods/Plysken Irrigation Pipes/42.1/media/lua/server/PIP/PIPCommands.lua"
-        },
-        {
-          "type": "scripted",
-          "labelZh": "遊戲互動／事件產生",
-          "detailZh": "由已安裝遊戲或 Mod 的執行腳本建立。",
-          "sourceFile": "steamapps/workshop/content/108600/3739173520/mods/Plysken Irrigation Pipes/42.1/media/lua/shared/PIP/PIPRemoveAction.lua"
         }
       ]
     },
