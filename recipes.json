@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Adun PZ 合成百科",
-    "generatedAt": "2026-08-29T04:30:40.235331+00:00",
+    "generatedAt": "2026-08-29T06:40:37.784380+00:00",
     "gameVersion": "42.20.4",
     "steamBuildId": "24909836",
     "profile": "adun_pz",
@@ -9470,27 +9470,108 @@
     "Base.TrapBox": {
       "displayCategory": "Trapping",
       "itemType": "base:normal",
-      "weight": 5
+      "weight": 5,
+      "descriptionZh": "可放置並加入誘餌的木製捕獵陷阱。Build 42.20.4 的伺服器腳本會用它捕捉兔子、松鼠與浣熊；這些動物主要在 19:00～05:00 活動。",
+      "usageZh": [
+        "放到植被區、森林或深林後加入新鮮誘餌；深林的動物區域權重最高。",
+        "兔子適合胡蘿蔔、萵苣、甜椒、高麗菜等蔬果；松鼠適合花生醬、麥片、花生、玉米或爆米花。",
+        "放好後離開該區域，隔天早上再回來檢查；一直待在陷阱旁不利於捕獲流程運作。",
+        "腳本中的陷阱權重為兔子 30、松鼠 25、浣熊 30；這些是公式參數，不等於單次捕獲百分比。"
+      ],
+      "warningsZh": [
+        "需要誘餌，且誘餌種類、地形、捕獵技能與檢查時間都會影響結果。",
+        "陷阱強度為 15；被動物破壞時會留下不可用木料與釘子。"
+      ],
+      "researchSources": [
+        {
+          "label": "目前伺服器 Build 42 捕獵定義",
+          "url": "file:/opt/project-zomboid/media/lua/server/Traps/TrapDefinition.lua"
+        },
+        {
+          "label": "PZwiki：Box Trap",
+          "url": "https://pzwiki.net/wiki/Box_Trap"
+        },
+        {
+          "label": "The Indie Stone：捕獵系統介紹",
+          "url": "https://projectzomboid.com/blog/news/2014/05/its-a-traaap/"
+        }
+      ]
     },
     "Base.TrapCage": {
       "displayCategory": "Trapping",
       "itemType": "base:normal",
-      "weight": 5
+      "weight": 5,
+      "descriptionZh": "較堅固的鐵絲籠陷阱，可捕捉兔子、松鼠與浣熊；三種動物主要在 19:00～05:00 活動。",
+      "usageZh": [
+        "放在植被區、森林或深林並加入對應的新鮮誘餌，離開該區域後隔天再檢查。",
+        "目前腳本對兔子、松鼠、浣熊的陷阱權重皆為 40，是這幾種可製作小型獵物陷阱中最高的一組。"
+      ],
+      "warningsZh": [
+        "陷阱強度為 20；被破壞時會留下鐵絲。權重仍不是單次捕獲百分比。"
+      ],
+      "researchSources": [
+        {
+          "label": "目前伺服器 Build 42 捕獵定義",
+          "url": "file:/opt/project-zomboid/media/lua/server/Traps/TrapDefinition.lua"
+        }
+      ]
     },
     "Base.TrapCrate": {
       "displayCategory": "Trapping",
       "itemType": "base:normal",
-      "weight": 5
+      "weight": 5,
+      "descriptionZh": "可放置並加入誘餌的木箱陷阱，用來捕捉兔子、松鼠與浣熊；這些動物主要在 19:00～05:00 活動。",
+      "usageZh": [
+        "適合放在植被區、森林或深林，加入對應的新鮮蔬果或堅果類誘餌後離開該區域。",
+        "目前腳本中的陷阱權重為兔子 30、松鼠 30、浣熊 30；這是捕獲公式參數，不是保證機率。"
+      ],
+      "warningsZh": [
+        "陷阱強度為 15；地形、誘餌、技能與動物活動時段都會影響結果。"
+      ],
+      "researchSources": [
+        {
+          "label": "目前伺服器 Build 42 捕獵定義",
+          "url": "file:/opt/project-zomboid/media/lua/server/Traps/TrapDefinition.lua"
+        }
+      ]
     },
     "Base.TrapSnare": {
       "displayCategory": "Trapping",
       "itemType": "base:normal",
-      "weight": 0.5
+      "weight": 0.5,
+      "descriptionZh": "繩套式小型獵物陷阱，可捕捉兔子、松鼠與浣熊；這些動物主要在 19:00～05:00 活動。",
+      "usageZh": [
+        "放在植被區、森林或深林，加入適合目標動物的新鮮誘餌後離開。",
+        "目前腳本對兔子、松鼠、浣熊的陷阱權重皆為 30。"
+      ],
+      "warningsZh": [
+        "陷阱強度為 10，是這組木製／金屬小型獵物陷阱中最低；權重不是保證機率。"
+      ],
+      "researchSources": [
+        {
+          "label": "目前伺服器 Build 42 捕獵定義",
+          "url": "file:/opt/project-zomboid/media/lua/server/Traps/TrapDefinition.lua"
+        }
+      ]
     },
     "Base.TrapStick": {
       "displayCategory": "Trapping",
       "itemType": "base:normal",
-      "weight": 1
+      "weight": 1,
+      "descriptionZh": "以昆蟲或穀物作餌的捕鳥陷阱。鳥類可全天進入捕獲判定，農地、城鎮與植被區的區域權重較高。",
+      "usageZh": [
+        "可用麵包、麵包片、蚯蚓、蟋蟀、蟑螂、毛毛蟲、玉米或麥片等作餌。",
+        "目前腳本對鳥類的陷阱權重為 40；放好誘餌後離開該區域，再回來檢查。"
+      ],
+      "warningsZh": [
+        "只對鳥類有陷阱定義，不能拿來抓兔子或松鼠；陷阱強度為 15。"
+      ],
+      "researchSources": [
+        {
+          "label": "目前伺服器 Build 42 捕獵定義",
+          "url": "file:/opt/project-zomboid/media/lua/server/Traps/TrapDefinition.lua"
+        }
+      ]
     },
     "Base.TreeBranch2": {
       "displayCategory": "MaterialWeapon",
