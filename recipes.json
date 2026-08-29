@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Adun PZ 合成百科",
-    "generatedAt": "2026-08-29T17:10:42.136760+00:00",
+    "generatedAt": "2026-08-29T20:22:03.386986+00:00",
     "gameVersion": "42.20.4",
     "steamBuildId": "24909836",
     "profile": "adun_pz",
@@ -136261,7 +136261,7 @@
     },
     "PSR.PowerBank": {
       "id": "PSR.PowerBank",
-      "zh": "太陽能儲電站",
+      "zh": "蓄電池組",
       "en": "Power Bank",
       "icon": "PowerBank",
       "displayCategory": "Electronics",
@@ -136277,7 +136277,7 @@
     },
     "PSR.SolarFailsafe": {
       "id": "PSR.SolarFailsafe",
-      "zh": "太陽能備援控制器",
+      "zh": "故障保險觸發器",
       "en": "Solar Failsafe",
       "icon": "SolarFailsafe",
       "displayCategory": "Electronics",
@@ -136326,7 +136326,7 @@
     },
     "PSR.SolarPanelFlat": {
       "id": "PSR.SolarPanelFlat",
-      "zh": "平放式太陽能板",
+      "zh": "平板太陽能板",
       "en": "Solar Panel Flat",
       "icon": "SolarPanel",
       "displayCategory": "Electronics",
@@ -136340,7 +136340,7 @@
     },
     "PSR.SolarPanelMounted": {
       "id": "PSR.SolarPanelMounted",
-      "zh": "支架式太陽能板",
+      "zh": "落地式太陽能板",
       "en": "Solar Panel Mounted",
       "icon": "SolarPanel",
       "displayCategory": "Electronics",
@@ -328773,7 +328773,7 @@
             },
             {
               "id": "PSR.SolarPanelMounted",
-              "zh": "支架式太陽能板",
+              "zh": "落地式太陽能板",
               "en": "Solar Panel Mounted"
             }
           ]
@@ -328944,7 +328944,7 @@
           "labels": [
             {
               "id": "PSR.SolarPanelFlat",
-              "zh": "平放式太陽能板",
+              "zh": "平板太陽能板",
               "en": "Solar Panel Flat"
             }
           ]
@@ -329799,7 +329799,7 @@
           "labels": [
             {
               "id": "PSR.SolarFailsafe",
-              "zh": "太陽能備援控制器",
+              "zh": "故障保險觸發器",
               "en": "Solar Failsafe"
             }
           ]
@@ -329949,7 +329949,7 @@
           "labels": [
             {
               "id": "PSR.PowerBank",
-              "zh": "太陽能儲電站",
+              "zh": "蓄電池組",
               "en": "Power Bank"
             }
           ]
@@ -332460,7 +332460,7 @@
           "labels": [
             {
               "id": "PSR.SolarFailsafe",
-              "zh": "太陽能備援控制器",
+              "zh": "故障保險觸發器",
               "en": "Solar Failsafe"
             }
           ]
@@ -333067,7 +333067,7 @@
           "labels": [
             {
               "id": "PSR.SolarPanelFlat",
-              "zh": "平放式太陽能板",
+              "zh": "平板太陽能板",
               "en": "Solar Panel Flat"
             }
           ]
@@ -335635,7 +335635,7 @@
           "labels": [
             {
               "id": "PSR.SolarPanelMounted",
-              "zh": "支架式太陽能板",
+              "zh": "落地式太陽能板",
               "en": "Solar Panel Mounted"
             }
           ]
@@ -335848,7 +335848,7 @@
           "labels": [
             {
               "id": "PSR.PowerBank",
-              "zh": "太陽能儲電站",
+              "zh": "蓄電池組",
               "en": "Power Bank"
             }
           ]
