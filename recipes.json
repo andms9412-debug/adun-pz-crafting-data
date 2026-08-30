@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Adun PZ 合成百科",
-    "generatedAt": "2026-08-30T05:32:12.448476+00:00",
+    "generatedAt": "2026-08-30T06:14:00.737984+00:00",
     "gameVersion": "42.20.4",
     "steamBuildId": "24909836",
     "profile": "adun_pz",
@@ -11,22 +11,22 @@
       "source": "https://github.com/Vaileasys/pz-wiki_parser",
       "sourceFile": "resources/page_dictionary.json",
       "commit": "aa3795046cf43dfcf4a7b0af4fe1f7428f973215",
-      "retrievedAt": "2026-08-30T05:32:08.810845+00:00",
+      "retrievedAt": "2026-08-30T06:13:56.954523+00:00",
       "itemPageCount": 4701,
       "contentSha256": "06e4b8a8811fce8a26e630d70c1bc996691557e3bd2e8ebb6fd837bc8dc32185",
       "note": "This is a page/Item ID index only. Player-facing mechanics are verified against the installed game scripts."
     },
     "recipeCount": 1255,
     "buildCount": 202,
-    "itemRefCount": 2365,
+    "itemRefCount": 2363,
     "itemCount": 5174,
     "skillCount": 35,
     "acquisitionEvidenceCount": 4594,
     "acquisitionUnverifiedCount": 143,
     "itemDescriptionCount": 5174,
     "itemProducedLinkCount": 2207,
-    "itemUsageLinkCount": 21259,
-    "itemUsageLinkedCount": 2639,
+    "itemUsageLinkCount": 21261,
+    "itemUsageLinkedCount": 2640,
     "itemWikiPageCount": 4551,
     "buildDescriptionCount": 202,
     "buildInteractiveCount": 166,
@@ -78487,10 +78487,13 @@
       "producedByRecipeIds": [
         "Base.FireClayPipeSegment"
       ],
-      "usedInRecipeIds": [],
-      "descriptionZh": "陶管段是製作材料。目前資料中可由 1 項配方取得，例如：燒製陶管段。",
+      "usedInRecipeIds": [
+        "PIP.Make_Irrigation_Pipe_Clay"
+      ],
+      "descriptionZh": "陶管段是製作材料。目前資料中用於 1 項合成／建造，例如：陶土灌溉管道。",
       "descriptionQuality": "derived-game-data",
       "usageZh": [
+        "目前資料中用於 1 項合成／建造，例如：陶土灌溉管道。",
         "目前資料中可由 1 項配方取得，例如：燒製陶管段。"
       ],
       "wikiPage": {
@@ -78515,7 +78518,7 @@
           "url": "https://pzwiki.net/wiki/Clay_Pipe_Segment"
         }
       ],
-      "knowledgeFingerprint": "1f257c4ad99b9c78"
+      "knowledgeFingerprint": "ba1d647f080e1da6"
     },
     "Base.ClayPipeSegmentUnfired": {
       "id": "Base.ClayPipeSegmentUnfired",
@@ -204500,6 +204503,7 @@
         "Base.build.MetalBigMetalFence",
         "Base.build.MetalBigWireFence",
         "Base.build.MetalWireFenceGate",
+        "PIP.Make_Irrigation_Pipe",
         "PFR.Make_Cold_Unit",
         "Base.MakePipeBomb",
         "Base.ExtractSteelFromMediumPlusIronItem",
@@ -204514,7 +204518,7 @@
         "可作為近戰／武器武器，基礎傷害 0.6～1、最大距離 1.2。",
         "腳本基礎暴擊率為 30%，暴擊傷害倍率 2。",
         "可從物品互動選單進行「研究製作」，嘗試研究 3 項配方：MakeBucketMaul、MakeKettleMaul、MakeRailspikeIronPipe；是否可學會仍受角色技能與配方研究條件限制。",
-        "目前資料中用於 33 項合成／建造，例如：大型金屬儲物櫃 (基礎)、大型金屬儲物櫃 (精工)、小型金屬儲物櫃 (基礎)、小型金屬儲物櫃 (精工)等。"
+        "目前資料中用於 34 項合成／建造，例如：大型金屬儲物櫃 (基礎)、大型金屬儲物櫃 (精工)、小型金屬儲物櫃 (基礎)、小型金屬儲物櫃 (精工)等。"
       ],
       "wikiPage": {
         "title": "Iron Pipe",
@@ -204538,7 +204542,7 @@
           "url": "https://pzwiki.net/wiki/Iron_Pipe"
         }
       ],
-      "knowledgeFingerprint": "50390b3db3ff4582"
+      "knowledgeFingerprint": "67eda84e81dbadd4"
     },
     "Base.MetalPipe_Broken": {
       "id": "Base.MetalPipe_Broken",
@@ -531653,7 +531657,7 @@
           "kind": "item",
           "count": 1,
           "refs": [
-            "PIP.MetalPipe"
+            "Base.MetalPipe"
           ],
           "refMultipliers": [
             1
@@ -531664,9 +531668,9 @@
           "raw": "item 1 [MetalPipe] mode:destroy",
           "labels": [
             {
-              "id": "PIP.MetalPipe",
-              "zh": "金屬灌溉管",
-              "en": "Metal Pipe"
+              "id": "Base.MetalPipe",
+              "zh": "鐵管",
+              "en": "Iron Pipe"
             }
           ]
         },
@@ -531761,7 +531765,7 @@
           "en": "Chopping Block"
         }
       ],
-      "recipeFingerprint": "3f31a489181b450b"
+      "recipeFingerprint": "cf6ac7d45026dc67"
     },
     {
       "id": "Base.SpinThreadFromFlax",
@@ -536079,7 +536083,7 @@
           "kind": "item",
           "count": 1,
           "refs": [
-            "PIP.ClayPipeSegment"
+            "Base.ClayPipeSegment"
           ],
           "refMultipliers": [
             1
@@ -536090,8 +536094,8 @@
           "raw": "item 1 [ClayPipeSegment] mode:destroy",
           "labels": [
             {
-              "id": "PIP.ClayPipeSegment",
-              "zh": "陶土灌溉管段",
+              "id": "Base.ClayPipeSegment",
+              "zh": "陶管段",
               "en": "Clay Pipe Segment"
             }
           ]
@@ -536137,7 +536141,7 @@
           "en": "Chopping Block"
         }
       ],
-      "recipeFingerprint": "cd7cd61d54580035"
+      "recipeFingerprint": "1d727e01c9da2009"
     },
     {
       "id": "Base.build.ChickenHutch2",
